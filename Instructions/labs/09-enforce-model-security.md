@@ -82,7 +82,7 @@ In this task, you will set up Power BI Desktop.
 
 In this task, you will create a workspace.
 
-1. In the Power BI service, to create a workspace, in the **Navigation** pane (located at the left), select **Workspaces**, and then select **Create workspace**.
+1. In the Power BI service, to create a workspace, in the **Navigation** pane (located at the left), select **Workspaces**, and then select **New workspace**.
 
 	![](../images1/dp9-4.png)
 
