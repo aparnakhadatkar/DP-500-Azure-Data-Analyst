@@ -258,7 +258,9 @@ This task relies on the existence of a **Salespeople_Australia** security group 
 	![](../images1/dp500_09-37.png)
 
 	>**Note**: Now all members of the **Salespeople_Australia** security group are mapped to the **Australia** role, which restricts data access to view only Australian sales.
+ 
 	>**Note**: In a real-world solution, each role should be mapped to a security group.
+ 
 	>**Note**: This design approach is simple and effective when security groups exist for each region. However, there are disadvantages: it requires more effort to create and set up. It also requires updating and republishing the dataset when new regions are onboarded.
 
 	>**Note**: In the next exercise, you will create a dynamic role that is data-driven. This design approach can help address these disadvantages.
