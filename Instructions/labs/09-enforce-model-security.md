@@ -43,11 +43,11 @@ In this task, you will set up Power BI Desktop.
 	
 1. You will be redirected to the Power BI sign-up page in Microsoft Edge. Select **Signin**.
 
+	![](../images1/dp-up3.png)
+
    
    >**Note**: On the Welcome to Microsoft Edge page, select  **Start without your data**  and on the help for importing Google browsing data page, select 		      the **Continue without this data** button. Then, proceed to select  **Confirm and start browsing**  on the next page.
 
-	
-	![](../images1/dp-up3.png)
 	
 1. Enter the Password provided in the Environment Details tab and click on **Signin**
 	
@@ -61,15 +61,17 @@ In this task, you will set up Power BI Desktop.
 
 1. At the top-right, select the profile icon, and then select **Start trial**.
 
-	![](../images1/dp-up6.png)
+	![](../images1/dp-up5.png)
+
 
 1. When prompted, select **Start trial**.
 
-	![](../images1/dp-up7.png)
+	![](../images1/dp-up6.png)
+
 
 1. Do any remaining tasks to complete the trial setup.
 
-	>**Note**: The Power BI web browser experience is known as the **Power BI service**.*
+	>**Note**: The Power BI web browser experience is known as the **Power BI service**.
 
 ### Task-2: Create a workspace
 
@@ -81,9 +83,9 @@ In this task, you will create a workspace.
 
 2. In the **Create a workspace** pane (located at the right), in the **Workspace name** box, enter a name for the workspace as **DP500-<inject key="Deployment ID" enableCopy="false" />** and select **Save**.
 
-	>**Note**: The workspace name must be unique within the tenant. If you are getting an error, update the workspace name.*
-
 	![](../images1/dp9-5.png)
+
+	>**Note**: The workspace name must be unique within the tenant. If you are getting an error, update the workspace name.
 
 ### Task-3: Review the data model
 
@@ -102,7 +104,7 @@ In this task, you will review the data model.
 
 	![](../images1/dp500_09-10.png)
 
-	>**Note**: The model comprises six dimension tables and one fact table. The **Sales** fact table stores sales order details. It's a classic star schema design.*
+	>**Note**: The model comprises six dimension tables and one fact table. The **Sales** fact table stores sales order details. It's a classic star schema design.
 
 3. Expand open the **Sales Territory** table.
 
@@ -110,7 +112,7 @@ In this task, you will review the data model.
 
 4. Notice that the table includes a **Region** column.
 
-	>**Note**: The **Region** column stores the Adventure Works sales regions. At this organization, salespeople are only allowed to see data related to their assigned sales region. In this lab, you will implement two different row-level security techniques to enforce data permissions.*
+	>**Note**: The **Region** column stores the Adventure Works sales regions. At this organization, salespeople are only allowed to see data related to their assigned sales region. In this lab, you will implement two different row-level security techniques to enforce data permissions.
 
 ## Exercise-1: Create static roles
 
@@ -128,7 +130,7 @@ In this task, you will create two static roles.
 
 	![](../images1/dp9-8.png)
 
-	>**Note**: For now, the chart looks overly busy. That's because all regions are visible. When the solution enforces row-level security, the report consumer will see only one region.*
+	>**Note**: For now, the chart looks overly busy. That's because all regions are visible. When the solution enforces row-level security, the report consumer will see only one region.
 
 
 3. To add a security role, on the **Modeling** ribbon tab, from inside the **Security** group, select **Manage roles**.
@@ -152,7 +154,7 @@ In this task, you will create two static roles.
 
 	![](../images1/dp9-13.png)
 
-	>**Note**:This expression filters the **Region** column by the value **Australia**.*
+	>**Note**:This expression filters the **Region** column by the value **Australia**.
 
 8. To create another role, press **Create**.
 
@@ -163,7 +165,7 @@ In this task, you will create two static roles.
 
 	![](../images1/dp9-14.png)
 
-	>**Note**: In this lab, you'll create just the two roles. Consider, however, that in a real-world solution, a role must be created for each of the 11 Adventure Works regions.*
+	>**Note**: In this lab, you'll create just the two roles. Consider, however, that in a real-world solution, a role must be created for each of the 11 Adventure Works regions.
 
 10. Select **Save**.
 
@@ -234,34 +236,34 @@ This task relies on the existence of a **Salespeople_Australia** security group 
 
 	![](../images1/dp500_09-33.png)
 	
-	>**Note**: The **Security** option supports mapping Microsoft Azure Active Directory (Azure AD) security principals, which includes security groups and users.*
+	>**Note**: The **Security** option supports mapping Microsoft Azure Active Directory (Azure AD) security principals, which includes security groups and users.
 
 4. At the left, notice the list of roles, and that **Australia** is selected.
 
 	![](../images1/dp500_09-34.png)
 
-5. In the **Members** box, commence entering **Salespeople_Australia**. 
-
-	>**Note**: Steps 5 through 8 are for demonstration purposes only, as they rely on the creation or existence of a Salespeople_Australia security group. If you have permissions and the knowledge to create security groups, please feel free to proceed. Otherwise, continue to the Clean Up task.*
+5. In the **Members** box, commence entering **Salespeople_Australia**.
 
 	![](../images1/dp500_09-35.png)
 
-6. Select **Add**.
+	>**Note**: Steps 5 through 8 are for demonstration purposes only, as they rely on the creation or existence of a Salespeople_Australia security group. If you have permissions and the knowledge to create security groups, please feel free to proceed. Otherwise, continue to the Clean Up task.
+
+
+7. Select **Add**.
 
 	![](../images1/dp500_09-36.png)
 
-7. To complete the role mapping, select **Save**.
+8. To complete the role mapping, select **Save**.
 
 	![](../images1/dp500_09-37.png)
 
-	>**Note**: Now all members of the **Salespeople_Australia** security group are mapped to the **Australia** role, which restricts data access to view only Australian sales.*
+	>**Note**: Now all members of the **Salespeople_Australia** security group are mapped to the **Australia** role, which restricts data access to view only Australian sales.
+	>**Note**: In a real-world solution, each role should be mapped to a security group.
+	>**Note**: This design approach is simple and effective when security groups exist for each region. However, there are disadvantages: it requires more effort to create and set up. It also requires updating and republishing the dataset when new regions are onboarded.
 
-	>**Note**: In a real-world solution, each role should be mapped to a security group.*
-	>**Note**: This design approach is simple and effective when security groups exist for each region. However, there are disadvantages: it requires more effort to create and set up. It also requires updating and republishing the dataset when new regions are onboarded.*
+	>**Note**: In the next exercise, you will create a dynamic role that is data-driven. This design approach can help address these disadvantages.
 
-	>**Note**: In the next exercise, you will create a dynamic role that is data-driven. This design approach can help address these disadvantages.*
-
-8. To return to the workspace landing page, in the **Navigation** pane, select the workspace.
+9. To return to the workspace landing page, in the **Navigation** pane, select the workspace.
 
 ## Exercise-2: Create a dynamic role
 
@@ -279,11 +281,11 @@ In this task, you will add the **Salesperson** table to the model.
 
 	![](../images1/dp9-23.png)
 
-	>**Note**: If you are prompted to specify how to connect, **Edit Credentials** and specify how to sign-in.*
+	>**Note**: If you are prompted to specify how to connect, **Edit Credentials** and specify how to sign-in.
 
 	![](../images1/dp9-24.png)
 
-	>**Note**: Select **Connect***
+	>**Note**: Select **Connect**.
 
 	![](../images1/dp9-25.png)
 	 
@@ -296,7 +298,7 @@ In this task, you will add the **Salesperson** table to the model.
 
 	![](../images1/dp500_09-43.png)
 
-	>**Note**: Because the **Customer** query already includes steps to connect the data warehouse, duplicating it is an efficient way to commence the development of a new query.*
+	>**Note**: Because the **Customer** query already includes steps to connect the data warehouse, duplicating it is an efficient way to commence the development of a new query.
 
 4. In the **Query Settings** pane (located at the right), in the **Name** box, replace the text with **Salesperson**.
 
@@ -351,7 +353,7 @@ In this task, you will add the **Salesperson** table to the model.
 
 15. Replace the text with **UPN**, and then press **Enter**.
 
-	>**Note**: UPN is an acronym for User Principal Name. The values in this column match the Azure AD account names.*
+	>**Note**: UPN is an acronym for User Principal Name. The values in this column match the Azure AD account names.
 
 	![](../images1/dp500_09-53.png)
 
@@ -379,7 +381,7 @@ In this task, you will configure properties of the new relationship.
 
 	![](../images1/dp500_09-56.png)
 
-	>**Note**: Because there' a one-to-many relationship from the **Sales Territory** table to the **Salesperson** table, filters propagate only from the **Sales Territory** table to the **Salesperson** table. To force propagation in the other direction, the cross filter direction must be set to both.*
+	>**Note**: Because there' a one-to-many relationship from the **Sales Territory** table to the **Salesperson** table, filters propagate only from the **Sales Territory** table to the **Salesperson** table. To force propagation in the other direction, the cross filter direction must be set to both.
 	
 	>**Note**: In case you encounter this error: `Table 'Sales Territory' is configured for row-level security, introducing constraints on how security filters are specified.` Uncheck the **Apply security filter in both directions** box and continue.
 
@@ -395,7 +397,7 @@ In this task, you will configure properties of the new relationship.
 
 	![](../images1/dp500_09-58.png)
 
-	>**Note**: The purpose of the **Salesperson** table is to enforce data permissions. When hidden, report authors and the Q&A experience won't see the table or its fields.*
+	>**Note**: The purpose of the **Salesperson** table is to enforce data permissions. When hidden, report authors and the Q&A experience won't see the table or its fields.
  
 
 ### Task-3: Create a dynamic role
@@ -416,7 +418,7 @@ In this task, you will create a dynamic role, which enforces permissions based o
 
 	![](../images1/dp500_09-62.png)
 
-	>**Note**: This time, only one role needs to be created.*
+	>**Note**: This time, only one role needs to be created.
 
 5. Add a filter to the **UPN** column of the **Salesperson** table.
 
@@ -426,7 +428,7 @@ In this task, you will create a dynamic role, which enforces permissions based o
 
 	![](../images1/dp500_09-64.png)
 
-	>**Note**: This expression filters the **UPN** column by the USERPRINCIPALNAME function, which returns the user principal name (UPN) of the authenticated user.*
+	>**Note**: This expression filters the **UPN** column by the USERPRINCIPALNAME function, which returns the user principal name (UPN) of the authenticated user.
 
 7. Now, being under the **Salespeople** role, add a filter to the **Region** column of the **Sales Territory** table.
 
@@ -436,7 +438,7 @@ In this task, you will create a dynamic role, which enforces permissions based o
 
 	![](../images1/dp500_09-66.png)
 
-	>**Note**: When the UPN filters the **Salesperson** table, it filters the **Sales Territory** table, which in turn filters the **Sales** table. This way, the authenticated user will only see sales data for their assigned region.*
+	>**Note**: When the UPN filters the **Salesperson** table, it filters the **Sales Territory** table, which in turn filters the **Sales** table. This way, the authenticated user will only see sales data for their assigned region.
 
 7. Select **Save**.
 
@@ -455,7 +457,7 @@ In this task, you will validate the dynamic role.
 
 	![](../images1/dp500_09-69.png)
 	
-	>**Note**: For testing purposes, **Other user** is the value that will be returned by the USERPRINCIPALNAME function. Note that this salesperson is assigned to the **Northeast** region.*
+	>**Note**: For testing purposes, **Other user** is the value that will be returned by the USERPRINCIPALNAME function. Note that this salesperson is assigned to the **Northeast** region.
 
 3. Check the **Salespeople** role.
 
@@ -500,9 +502,9 @@ In this task, you will finalize the design by publishing the report and mapping 
 
 	![](../images1/dp500_09-76.png)
 
-	>**Note**: Now all members of the **Salespeople** security group are mapped to the **Salespeople** role. Providing the authenticated user is represented by a row in the **Salesperson** table, the assigned sales territory will be used to filter the sales table.*
+	>**Note**: Now all members of the **Salespeople** security group are mapped to the **Salespeople** role. Providing the authenticated user is represented by a row in the **Salesperson** table, the assigned sales territory will be used to filter the sales table.
 
-	>**Note**: This design approach is simple and effective when the data model stores the user principal name values. When salespeople are added or removed, or are assigned to different sales territories, this design approach will simply work.*
+	>**Note**: This design approach is simple and effective when the data model stores the user principal name values. When salespeople are added or removed, or are assigned to different sales territories, this design approach will simply work.
 
 7. **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 
