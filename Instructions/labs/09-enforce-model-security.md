@@ -57,8 +57,6 @@ In this task, you will set up Power BI Desktop.
 
 1. Enter a 10 digit phone number and select **Get started**. Select **Get started** once more. You will be redirected to Power BI.
 
-	![](../images1/dp-up5.png)
-
 1. At the top-right, select the profile icon, and then select **Start trial**.
 
 	![](../images1/dp-up5.png)
