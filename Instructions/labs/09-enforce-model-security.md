@@ -33,10 +33,14 @@ In this task, you will set up Power BI Desktop.
 	![](../images1/DP500-16-6new.png)
 	
 1. Enter the Lab username in the **Enter your email address** and click on **Continue**
+    * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
 
 	![](../images1/dp-up1.png)
 	
-1. Complete the sign up process by selecting the username and entering the password provided in the environment details tab.
+1. Complete the sign up process by selecting the username and entering the password provided in the environment details tab.'
+   * Password: <inject key="AzureAdUserPassword"></inject>
+
 
 	![](../images1/dp-up2.png)
 	
@@ -50,6 +54,9 @@ In this task, you will set up Power BI Desktop.
 
 	
 1. Enter the Password provided in the Environment Details tab and click on **Signin**
+
+	* Password: <inject key="AzureAdUserPassword"></inject>
+
 	
 	![](../images1/dp-up4.png)
 	
