@@ -159,7 +159,7 @@ In this task, you will create two static roles.
 
 	![](../images1/dp9-13.png)
 
-	>**Note**:This expression filters the **Region** column by the value **Australia**.
+	>**Note**: This expression filters the **Region** column by the value **Australia**.
 
 8. To create another role, press **Create**.
 
