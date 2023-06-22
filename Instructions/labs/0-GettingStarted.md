@@ -1,12 +1,12 @@
 # Getting Started with Lab
 
-1. Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser. 
+1. Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser.
 
-    ![](../images1/minimize.png "Close Sign_up")
-   
-    >**Note**:  If you see a powershell script running in the background please minimize and continue with the next instructions.
+   ![](../images1/minimize.png "Close Sign_up")
 
-2. Use this virtual machine throughout the workshop to perform the lab. To get the lab environment details, you can select the **Environment Details** tab.
+   > **Note**:  If you see a powershell script running in the background please minimize and continue with the next instructions.
+
+1. Use this virtual machine throughout the workshop to perform the lab. To get the lab environment details, you can select the **Environment Details** tab.
 
     ![](../images1/dp-500-intro-1-1.png)
 
