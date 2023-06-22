@@ -86,7 +86,7 @@ In this task, you will create a workspace.
 
 	>**Note**: The workspace name must be unique within the tenant. If you are getting an error, update the workspace name.
 
-### Task 2: Review the data model
+### Task 3: Review the data model
 
 In this task, you will review the data model.
 
