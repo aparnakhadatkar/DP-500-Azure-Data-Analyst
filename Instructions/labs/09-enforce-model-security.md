@@ -28,37 +28,31 @@ In this task, you will set up Power BI Desktop.
 	
 	![](../images1/dp9-2.png)
 
-1. At the top-right corner of Power BI Desktop, if you're not already signed in, select **Sign In**. Use the lab credentials in the Environment details tab to complete the sign in process.
+1. At the top-right corner of Power BI Desktop, if you're not already signed in, select **Sign In**. Use the lab credentials in the Environment details tab to complete the sign-in process.
 
 	![](../images1/DP500-16-6new.png)
 	
 1. Enter the Lab username in the **Enter your email address** and click on **Continue**
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-
-	![](../images1/dp-up1.png)
+    ![](../images1/dp-up1.png)
 	
 1. Complete the sign up process by selecting the username and entering the password provided in the environment details tab.'
    * Password: <inject key="AzureAdUserPassword"></inject>
 
+   ![](../images1/dp-up2.png)
 
-	![](../images1/dp-up2.png)
-	
-	
 1. You will be redirected to the Power BI sign-up page in Microsoft Edge. Select **Signin**.
 
-	![](../images1/dp-up3.png)
+   ![](../images1/dp-up3.png)
 
-   
-   >**Note**: On the Welcome to Microsoft Edge page, select  **Start without your data**  and on the help for importing Google browsing data page, select 		      the **Continue without this data** button. Then, proceed to select  **Confirm and start browsing**  on the next page.
+   >**Note**: On the Welcome to Microsoft Edge page, select  **Start without your data**  and on the help for importing Google browsing data page, select the **Continue without this data** button. Then, proceed to select  **Confirm and start browsing**  on the next page.
 
-	
 1. Enter the Password provided in the Environment Details tab and click on **Signin**
 
-	* Password: <inject key="AzureAdUserPassword"></inject>
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
-	
-	![](../images1/dp-up4.png)
+   ![](../images1/dp-up4.png)
 	
 1. If stay signed in window Pops-up, select **No**
 
@@ -66,17 +60,15 @@ In this task, you will set up Power BI Desktop.
 
 1. At the top-right, select the profile icon, and then select **Start trial**.
 
-	![](../images1/dp-up5.png)
-
+   ![](../images1/dp-up5.png)
 
 1. When prompted, select **Start trial**.
 
-	![](../images1/dp-up6.png)
-
+   ![](../images1/dp-up6.png)
 
 1. Do any remaining tasks to complete the trial setup.
 
-	>**Note**: The Power BI web browser experience is known as the **Power BI service**.
+   >**Note**: The Power BI web browser experience is known as the **Power BI service**.
 
 ### Task-2: Create a workspace
 
@@ -219,10 +211,10 @@ In this task, you will publish the report.
 	![](../images1/dp9-19.png)
 
 3. In the **Publish to Power BI** window, select your workspace, and then select **Select**.
+   
 4. When the publishing succeeds, select **Got it**.
 
-
-	![](../images1/dp9-20.png)
+   ![](../images1/dp9-20.png)
 
 ### Task-4: Configure row-level security (*Read-only*)
 
