@@ -14,7 +14,7 @@ In this lab, you learn how to:
 
 - Map security principals to dataset roles.
 
-### Task-1: Set up Power BI Desktop
+### Task 0: Set up Power BI Desktop
 
 In this task, you will set up Power BI Desktop.
 
@@ -97,17 +97,17 @@ In this task, you will review the data model.
 	![](../images1/dp9-6new.png)
 
 
-2. Use the model diagram to review the model design.
+1. Use the model diagram to review the model design.
 
 	![](../images1/dp500_09-10.png)
 
 	>**Note**: The model comprises six dimension tables and one fact table. The **Sales** fact table stores sales order details. It's a classic star schema design.
 
-3. Expand open the **Sales Territory** table.
+1. Expand open the **Sales Territory** table.
 
 	![](../images1/dp500_09-11.png)
 
-4. Notice that the table includes a **Region** column.
+1. Notice that the table includes a **Region** column.
 
 	>**Note**: The **Region** column stores the Adventure Works sales regions. At this organization, salespeople are only allowed to see data related to their assigned sales region. In this lab, you will implement two different row-level security techniques to enforce data permissions.
 
@@ -246,11 +246,11 @@ This task relies on the existence of a **Salespeople_Australia** security group 
 	>**Note**: Steps 5 through 8 are for demonstration purposes only, as they rely on the creation or existence of a Salespeople_Australia security group. If you have permissions and the knowledge to create security groups, please feel free to proceed. Otherwise, continue to the Clean Up task.
 
 
-7. Select **Add**.
+6. Select **Add**.
 
 	![](../images1/dp500_09-36.png)
 
-8. To complete the role mapping, select **Save**.
+7. To complete the role mapping, select **Save**.
 
 	![](../images1/dp500_09-37.png)
 
@@ -262,7 +262,7 @@ This task relies on the existence of a **Salespeople_Australia** security group 
 
 	>**Note**: In the next exercise, you will create a dynamic role that is data-driven. This design approach can help address these disadvantages.
 
-9. To return to the workspace landing page, in the **Navigation** pane, select the workspace.
+8. To return to the workspace landing page, in the **Navigation** pane, select the workspace.
 
 ## Exercise-2: Create a dynamic role
 
@@ -441,7 +441,7 @@ In this task, you will create a dynamic role, which enforces permissions based o
 
 7. Select **Save**.
 
-	![](../images1/67.png)
+   ![](../images1/dp500_09-67.png)
 
 ### Task-4: Validate the dynamic role
 
