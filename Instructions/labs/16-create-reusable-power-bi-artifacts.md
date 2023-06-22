@@ -20,7 +20,7 @@ In this exercise, you will Publish a data Module in Power BI.
 
 In this task, you will set up Power BI.
 
-1. To open Power BI Desktop, select the **Power BI Desktop** shortcut on desktop page.
+1. To open Power BI Desktop, select the **Power BI Desktop** shortcut on the desktop page.
 
 	![](../images1/dp-0new.png)
 
@@ -28,7 +28,7 @@ In this task, you will set up Power BI.
 
 	![](../images1/dp-1new.png)
 
-1. At the top-right corner of Power BI Desktop, if you're not already signed in, select **Sign In**. Use the lab credentials in the Environment details tab to complete the sign in process.
+1. At the top-right corner of Power BI Desktop, if you're not already signed in, select **Sign In**. Use the lab credentials in the Environment details tab to complete the sign-in process.
 
 	![](../images1/DP500-16-6new.png)
 	
@@ -37,7 +37,7 @@ In this task, you will set up Power BI.
 
 	![](../images1/dp-up1.png)
 	
-1. Complete the sign up process by selecting the username and entering the password provided in the environment details tab.
+1. Complete the signup process by selecting the username and entering the password provided in the environment details tab.
 
    * Password: <inject key="AzureAdUserPassword"></inject>
 
@@ -48,7 +48,7 @@ In this task, you will set up Power BI.
 
 	![](../images1/dp-up3.png)
    
-   >**Note**: On the Welcome to Microsoft Edge page, select  **Start without your data**  and on the help for importing Google browsing data page, select 		      the **Continue without this data** button. Then, proceed to select  **Confirm and start browsing**  on the next page.
+   >**Note**: On the Welcome to Microsoft Edge page, select  **Start without your data**  , and on the help for importing Google browsing data page, select the **Continue without this data** button. Then, proceed to select  **Confirm and start browsing**  on the next page.
 
 	
 1. Enter the Password provided in the Environment Details tab and click on **Signin**
@@ -62,12 +62,11 @@ In this task, you will set up Power BI.
 
 1. At the top-right, select the profile icon, and then select **Start trial**.
 
-	![](../images1/dp-up5.png)
-
+   ![](../images1/dp-up5.png)
 
 1. Do any remaining tasks to complete the trial setup.
 
-	>**Note**: The Power BI web browser experience is known as the **Power BI service**.
+   >**Note**: The Power BI web browser experience is known as the **Power BI service**.
 
 ### Task-2: Create a workspace in the Power BI Service
 
@@ -75,18 +74,17 @@ In this task, you will create a workspace.
 
 1. In the Power BI service, to create a workspace, in the **Navigation** pane (located at the left), select **Workspaces**, and then select **Create workspace**.
 
-	![](../images/DP500-16-10.png)
+   ![](../images/DP500-16-10.png)
 
+1. In the **Create a workspace** pane (located at the right), in the **Workspace name** box, enter a name for the workspace as **DP500-<inject key="Deployment ID" enableCopy="false" />**.
+   
+1. Select **Apply**.
 
-2. In the **Create a workspace** pane (located at the right), in the **Workspace name** box, enter a name for the workspace as **DP500-<inject key="Deployment ID" enableCopy="false" />**
-3. Select **Apply**.
+   ![](../images1/dp-4.png)
 
+   >**Note**: Once created, the workspace opens. In the next task, you will publish a dataset to this workspace.
 
-	![](../images1/dp-4.png)
-
-	>**Note**: Once created, the workspace opens. In the next task, you will publish a dataset to this workspace.
-
-4. **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 
    - Click the **(...) icon** located at the upper right corner of the lab guide section and navigate to the **Lab Validation** Page.
    - Hit the **Validate** button for the corresponding task.
@@ -105,7 +103,7 @@ In this task, you will create a workspace.
 
 4. If **Get the most out of Power BI** window pops-up, close it.
 
-4. If you're not already signed in, at the top-right corner of Power BI Desktop, select **Sign In**. Use the lab credentials to complete the sign in process.
+5. If you're not already signed in, at the top-right corner of Power BI Desktop, select **Sign In**. Use the lab credentials to complete the sign in process.
 
 	![](../images1/DP500-16-6new.png)
 
@@ -245,34 +243,34 @@ In this task, you will design the report layout to analyze US state sales.
 	![](../images1/DP500-16-29new.png)
 
 
-3. In the **Data** pane (located at the right), expand open the **Reseller** table.
+2. In the **Data** pane (located at the right), expand open the **Reseller** table.
 
 
-5. Right-click the **Country-Region** field, and then select **Add to filters** > **Report-level filters**.
+3. Right-click the **Country-Region** field, and then select **Add to filters** > **Report-level filters**.
 
 	![](../images1/dp-16.png)
 
-6. Expand open the **Filters** pane (located at the left of the **Visualizations** pane).
+4. Expand open the **Filters** pane (located at the left of the **Visualizations** pane).
 
-7. In the **Filters** pane, in the **Filters on all pages** section, in the **Country-Region** card, select **United States**.
+5. In the **Filters** pane, in the **Filters on all pages** section, in the **Country-Region** card, select **United States**.
 
 	![](../images/DP500-16-31.png)
 
-8. To add a table visual, in the **Visualizations** pane, select the table visual icon.
+6. To add a table visual, in the **Visualizations** pane, select the table visual icon.
 
 	![](../images/DP500-16-32.png)
 
-9. Reposition and resize the table so that it fills the entire page.
+7. Reposition and resize the table so that it fills the entire page.
 
-10. In the **Data** pane, from inside the **Reseller** table, drag the **State-Province** field and drop it into the table visual.
+8. In the **Data** pane, from inside the **Reseller** table, drag the **State-Province** field and drop it into the table visual.
 
 	![](../images/DP500-16-33.png)
 
-11. In the **Data** pane, expand the **Sales** table, and then add the **Sales Amount** field to the table visual.
+9. In the **Data** pane, expand the **Sales** table, and then add the **Sales Amount** field to the table visual.
 
 	![](../images/DP500-16-34.png)
 
-12. To sort the states by descending order of sales amount, select the **Sales Amount** header.
+10. To sort the states by descending order of sales amount, select the **Sales Amount** header.
 
 	![](../images/DP500-16-35.png)
 
@@ -327,10 +325,10 @@ In this task, you will add a table of US population data sourced from a web page
 	![](../images/DP500-16-42.png)
 
 12. To remove the **United States** row, in the **STATE** column header, select the down-arrow, and then unselect the **United States** item (scroll to the bottom of the list).
+    
 13. Select **OK**.
 
-
-	![](../images1/dp-25.png)
+    ![](../images1/dp-25.png)
 
 14. To remove the **RANK** column, right-click the column header, and then select **Remove**.
 
@@ -362,7 +360,7 @@ In this task, you will add a table of US population data sourced from a web page
 
 	![](../images1/dp-30.png)
 
-	>**Note**: Each row of the **Reseller** table stores a reseller, so the values found in the **State-Province** column will contain duplicate values (for example, there are many resellers in the state of California). When you create the relationship, Power BI Desktop automatically determines column cardinalities and discovered that it's a many-to-one relationship. To ensure filters propagate from the **Reseller** table to the **US Population** table, the relationship must cross filter in both directions.
+	>**Note**: Each row of the **Reseller** table stores a reseller, so the values found in the **State-Province** column will contain duplicate values (for example, there are many resellers in the state of California). When you create the relationship, Power BI Desktop automatically determines column cardinalities and discovered that it's a many-to-one relationship. To ensure filters propagate from the **Reseller** table to the **US Population** table, the relationship must cross-filter in both directions.
 
 22. Select **OK**.
 
@@ -461,13 +459,13 @@ In this task, you will review the specialized dataset in the Power BI service.
 
 	>**Note**: The **View lineage** option supports finding out dependencies between Power BI assets. That's important, for example, if you are going to publish changes to a core dataset. Lineage view will tell you the dependent datasets that might require testing.
 
-4. In lineage view, notice the connection between the report, the **US Sales Analysis** dataset, and the **Sales Analysis - Create reusable Power BI artifacts** dataset.
+4. In the lineage view, notice the connection between the report, the **US Sales Analysis** dataset, and the **Sales Analysis - Create reusable Power BI artifacts** dataset.
 
 	![](../images/DP500-16-55.png)
 
 	>**Note**: When Power BI datasets relate to other datasets, it's known as chaining. In this lab, the **US Sales Analysis** dataset is chained to the **Sales Analysis - Create reusable Power BI artifacts** dataset, enabling its reuse for a specialized purpose.
 
-5. **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 
    - Click the **(...) icon** located at the upper right corner of the lab guide section and navigate to the **Lab Validation** Page.
    - Hit the **Validate** button for the corresponding task.
