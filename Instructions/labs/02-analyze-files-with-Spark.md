@@ -40,7 +40,7 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
 
    ![](../images/mod2-icon.png)
 
-1. On the **Manage (1)** page, select the **Apache Spark pools (2)** tab and note that a Spark pool with a name similar to **sparkpool<inject key="Deployment ID" enableCopy="false" /> (3)** has been provisioned in the workspace. Later you will use this Spark pool to load and analyze data from files in the data lake storage for the workspace.
+1. On the **Manage (1)** page, select the **Apache Spark pools (2)** tab and note that a Spark pool with a name similar to **spool<inject key="Deployment ID" enableCopy="false" /> (3)** has been provisioned in the workspace. Later you will use this Spark pool to load and analyze data from files in the data lake storage for the workspace.
 
    ![](../images1/Mod2-Ex1-Task1-Step7.png)
 
@@ -68,7 +68,7 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
 
    ![](../images1/Mod2-Ex2-Task2-Step1.png)
 
-1. In the new **Notebook 1 (1)** tab that opens, Select the **... (2)** icon to open the **Attach to** list, select your Spark pool  **sparkpool<inject key="Deployment ID" enableCopy="false" /> (3)**. Then use the **&#9655; Run all (4)** button to run all of the cells in the notebook (there's currently only one!).
+1. In the new **Notebook 1 (1)** tab that opens, Select the **... (2)** icon to open the **Attach to** list, select your Spark pool  **spool<inject key="Deployment ID" enableCopy="false" /> (3)**. Then use the **&#9655; Run all (4)** button to run all of the cells in the notebook (there's currently only one!).
  
    ![](../images1/Mod2-Ex2-Task2-Step2a.png)
 
