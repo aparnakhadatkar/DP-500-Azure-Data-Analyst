@@ -42,8 +42,6 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
 
 1. On the **Manage (1)** page, select the **Apache Spark pools (2)** tab and note that a Spark pool with a name similar to **spool<inject key="Deployment ID" enableCopy="false" /> (3)** has been provisioned in the workspace. Later you will use this Spark pool to load and analyze data from files in the data lake storage for the workspace.
 
-   ![](../images1/Mod2-Ex1-Task1-Step7.png)
-
 1. On the **Data (1)** page, view the **Linked (2)** tab and verify that your workspace includes a link to your **Azure Data Lake Storage Gen2 (3)** storage account, which should have a name similar to **workspace<inject key="Deployment ID" enableCopy="false" /> (Primary - datalake<inject key="DeploymentID" enableCopy="false"/>) (4)**.
 
    ![](../images1/Mod2-Ex1-Task1-Step8.png)
