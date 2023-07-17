@@ -14,7 +14,7 @@
       "defaultDataLakeStorageAccountUrl": "[concat('https://', variables('dataLakeAccountName'), '.dfs.core.windows.net')]",
       "workspaceName": "[concat('workspace',parameters('DeploymentID'))]",
       "dataLakeAccountName": "[concat('datalake',parameters('DeploymentID'))]",
-      "sparkPoolName": "[concat('sparkpool',parameters('DeploymentID'))]",
+      "sparkPoolName": "[concat('spool',parameters('DeploymentID'))]",
       "sparkAutoScaleEnabled": "true",
       "sparkMinNodeCount": "3",
       "sparkMaxNodeCount": "4",
