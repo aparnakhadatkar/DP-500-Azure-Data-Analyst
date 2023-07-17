@@ -370,7 +370,7 @@ In this task, you will test the aggregation and determine whether Power BI uses 
 
       ![](../images/dp500-12-28.png)
 
-      >**Tip:** Use **Ctrl+C** and **Ctrl+V** to copy and paste.
+      > **Tip**: Use **Ctrl+C** and **Ctrl+V** to copy and paste.
      
 8. Position the new slicer directly beneath the original slicer.
 
