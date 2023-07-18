@@ -490,15 +490,17 @@ In this task, you will finalize the design by publishing the report and mapping 
 
 	![](../images1/dp500_09-75.png)
 
-2. Publish the report to the workspace you created at the beginning of the lab. 
+2. Publish the report to the workspace you created at the beginning of the lab.
 
-3. Close Power BI Desktop.
+3. When the publishing succeeds, select Got it.
 
-4. Switch to the Power BI service (web browser).
+4. Close Power BI Desktop.
 
-5. Go to the security settings for the **Sales Analysis - Enforce model security** dataset.
+5. Switch to the Power BI service (web browser).
 
-6. Map the **Salespeople** security group the **Salespeople** role.
+6. Go to the security settings for the **Sales Analysis - Enforce model security** dataset.
+
+7. Map the **Salespeople** security group the **Salespeople** role.
 
 	![](../images1/dp500_09-76.png)
 
