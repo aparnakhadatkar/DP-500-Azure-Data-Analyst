@@ -297,6 +297,8 @@ When exploring very large volumes of data, queries can take significant time and
   
 ## Excercise 3: Challenge - Analyze reseller sales
 
+### Task 1: Create SQL queries
+
 1. Create a new empty script for the **sqldb<inject key="DeploymentID" enableCopy="false"/>** SQL pool, and save it with the name **Analyze Reseller Sales**.
 
 1. Create SQL queries in the script to find the following information based on the **FactResellerSales** fact table and the dimension tables to which it is related:
