@@ -443,7 +443,7 @@ In this task, you will test the model by creating a simple report layout.
 
 1. Close Power BI Desktop.
 
-### Pause the SQL pool
+### Task 4: Pause the SQL pool
 
 In this task, you will stop the SQL pool.
 
