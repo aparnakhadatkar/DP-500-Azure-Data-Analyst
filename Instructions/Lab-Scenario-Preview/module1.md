@@ -15,4 +15,4 @@ After completing this lab, you will be able to:
 
 ## Architecture Diagram
 
- ![](media/Mod1.png)
+ ![](media/lab1-archy.png)
