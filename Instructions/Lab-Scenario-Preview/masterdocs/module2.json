@@ -1,0 +1,12 @@
+[
+    {
+     "Name": "Lab Scenario Preview - DP-500: Analyze files with Spark",
+     "Language": "English",
+     "Files": [
+         {
+           "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/prod/Instructions/Lab-Scenario-Preview/module2.md",
+           "Order": 1
+         }
+      ]  
+    } 
+ ]

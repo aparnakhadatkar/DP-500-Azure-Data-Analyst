@@ -1,0 +1,12 @@
+[
+    {
+     "Name": "Lab Scenario Preview - DP-500: Analyze data with sql",
+     "Language": "English",
+     "Files": [
+         {
+           "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/prod/Instructions/Lab-Scenario-Preview/module1.md",
+           "Order": 1
+         }
+      ]  
+    } 
+ ]
