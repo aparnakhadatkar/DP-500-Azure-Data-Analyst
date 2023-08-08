@@ -11,6 +11,7 @@ In this lab, you will querying files using a serverless SQL pool allows executin
 After completing this lab, you will be able to:
 
 - Query different file formats using SQL
+- Create an external data source
 - Visualize the query results in chart
 
 ## Architecture Diagram
