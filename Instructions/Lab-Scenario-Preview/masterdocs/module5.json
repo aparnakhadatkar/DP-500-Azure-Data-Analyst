@@ -1,0 +1,12 @@
+[
+    {
+     "Name": "Lab Scenario Preview - DP-500: Create a dataflow",
+     "Language": "English",
+     "Files": [
+         {
+           "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/DP-500-Azure-Data-Analyst/prod/Instructions/Lab-Scenario-Preview/module5.md",
+           "Order": 1
+         }
+      ]  
+    } 
+ ]
