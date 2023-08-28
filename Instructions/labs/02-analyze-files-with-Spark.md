@@ -455,4 +455,12 @@ While **matplotlib** enables you to create complex charts of multiple types, it 
 
    >**Note**: To learn more about plotting with seaborn, see the [seaborn documentation](https://seaborn.pydata.org/index.html).
 
+### Review
+In this lab, you have completed:
+- Query data in files
+- Use Spark to explore data
+- Analyze data in a dataframe
+- Query data using Spark SQL
+- Visualize data with Spark
+  
 ## You have successfully completed the lab
