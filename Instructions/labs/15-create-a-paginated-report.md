@@ -25,9 +25,9 @@ After completing this lab, you will be able to:
 
 ## Exercise 1: Get started
 
-In this exercise, you will open Power BI Report Builder to create and then save a report.
-
 ## Estimated timing: 45 minutes
+
+In this exercise, you will open Power BI Report Builder to create and then save a report.
 
 ### Task 1: Create the report
 
