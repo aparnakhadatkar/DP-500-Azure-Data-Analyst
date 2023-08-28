@@ -29,11 +29,11 @@ In this task, you will start the SQL pool.
 
 1. Select the Azure Synapse Analytics instance.
    
-   ![](../images1/dp-500_05-workspace.png)
+   ![](../images/dp-500_05-workspace1.png)
 
 1. Locate and select the dedicated SQL pool named **sqldb<inject key="DeploymentID" enableCopy="false"/>**.
    
-   ![](../images1/dp-500_05-sql.png)
+   ![](../images/dp-500_05-sql1.png)
 
 1. Resume the dedicated SQL pool.
 
@@ -105,7 +105,7 @@ In this task, you will create a workspace.
 
 1. In the **Create a workspace** pane (located at the right), in the **Workspace name** box, enter a name for the workspace as **DP500workspace-<inject key="Deployment ID" enableCopy="false" />**. And Click **Apply**.
 
-   ![](../images/createmyworkspace.png)
+   ![](../images/createmyworkspace1.png)
    
    >**Note** The workspace name must be unique within the tenant.
  
@@ -139,7 +139,7 @@ In this task, you will create a dataflow that represents a consistent definition
 
 1. Switch back to the Power BI service, select **New (1)** and then **Dataflow (2)**.
 
-   ![](../images/dataflow.png)
+   ![](../images/dataflow1.png)
 
 1. In the **Define new tables** tile, select **Add new tables**.
 
@@ -159,11 +159,11 @@ In this task, you will create a dataflow that represents a consistent definition
   
     - Ensure the Authentication kind is **Organizational account**. If you are prompted to sign in, use the lab provided credentials.
 
-    ![](../images1/dp500_05-connectionSettings.png)
+    ![](../images/dp500_05-connectionSettings1.png)
          
    >**Note**: We can also fetch the server name by signing into the azure portal and navigating to **Connection Strings** under the dedicated sql pool resource present in lab05-rg, which is well explained in the below screenshot.
     
-    ![](../images/nameofsynapticsendpoint.png)
+    ![](../images/nameofsynapticsendpoint1.png)
      
    >**Note**: The Server name should look similar to: *synapsewsxxxxx.sql.azuresynapse.net
 
