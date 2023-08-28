@@ -14,7 +14,7 @@ After completing this lab, you will be able to:
 
 ## Architecture Diagram
 
- ![](media/lab11-archy.png)
+![](../images/lab11-archy.png)
  
 ## Exercise 1: Set up Power BI Desktop
 
