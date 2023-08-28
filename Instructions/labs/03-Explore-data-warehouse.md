@@ -15,7 +15,7 @@ After completing this lab, you will be able to:
 
 ## Architecture Diagram
 
- ![](media/lab3-archy.png)
+ ![](../images/lab3-archy.png)
  
 ## Estimated timing: 45 minutes
 
