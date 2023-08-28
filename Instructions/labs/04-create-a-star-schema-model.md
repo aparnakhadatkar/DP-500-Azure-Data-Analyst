@@ -548,9 +548,9 @@ In this task, you will create five Power Query queries that will each load as a 
     ![](../images/dp500-57.png)
 	
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+    > - Hit the Validate button for the corresponding task.
+    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 ### Task 3: Organize the model diagram
@@ -593,9 +593,9 @@ In this task, you will organize the model diagram to easily understand the star 
 1. Close Power BI Desktop.
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+   > - Hit the Validate button for the corresponding task.
+   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 4: Pause the SQL pool
@@ -609,3 +609,5 @@ In this task, you will stop the SQL pool.
 1. Pause the SQL pool.
 
 **You have successfully completed the lab**
+
+**End of the lab**
