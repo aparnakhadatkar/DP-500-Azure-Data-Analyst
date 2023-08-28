@@ -13,7 +13,8 @@ After completing this lab, you will be able to:
 - Organize the model diagram.
 
 ## Architecture Diagram
- ![](media/lab4-archy.png)
+
+![](../images/lab4-archy.png)
 
 ## Exercise 1: Set up Power BI
 
