@@ -2,7 +2,7 @@
 
 ## Lab scenario
 
-In this lab, you will work with model relationships specifically to address the need for role-playing dimensions. It will involve working with active and inactive relationships, and also Data Analysis Expressions (DAX) functions that modify relationship behavior.
+In this lab, you will work with model relationships specifically to address the need for role-playing dimensions. It will involve working with active and inactive relationships, and also Data Analysis Expressions (DAX) functions that modify relationship behaviour.
 
 ## Lab objectives
 
@@ -10,7 +10,7 @@ After completing this lab, you will be able to:
 
 - Interpret relationship properties in the model diagram
 - Set relationship properties
-- Use DAX functions that modify relationship behavior
+- Use DAX functions that modify relationship behaviour
 
 ## Architecture Diagram
 
@@ -20,7 +20,7 @@ After completing this lab, you will be able to:
 
 ## Exercise 1: Explore model relationships
 
-In this exercise, you will open a pre-developed Power BI Desktop solution to learn about the data model. You will then explore the behavior of active model relationships.
+In this exercise, you will open a pre-developed Power BI Desktop solution to learn about the data model. You will then explore the behaviour of active model relationships.
 
 ### Task 1: Set up Power BI Desktop
 
@@ -357,7 +357,7 @@ In this exercise, you will work with other DAX relationship functions.
 
 ### Task 1: Explore other relationship functions
 
-In this task, you will work with the CROSSFILTER and TREATAS functions to modify relationship behavior during calculations.
+In this task, you will work with the CROSSFILTER and TREATAS functions to modify relationship behaviour during calculations.
 
 1. In the **Data** pane, from inside the **Sales** table, select the **Sales Shipped** measure.
 
@@ -377,7 +377,7 @@ In this task, you will work with the CROSSFILTER and TREATAS functions to modify
 	)
 	```
 
-   >**Note** This formula uses the CALCULATE function to sum the **Sales Amount** column by using modified relationship behaviors. The CROSSFILTER function disables the active relationship to the **OrderDateKey** column (this function can also modify filter direction). The TREATAS function creates a virtual relationship by applying the in-context **DateKey** values to the **ShipDateKey** column.
+   >**Note** This formula uses the CALCULATE function to sum the **Sales Amount** column by using modified relationship behaviour. The CROSSFILTER function disables the active relationship to the **OrderDateKey** column (this function can also modify filter direction). The TREATAS function creates a virtual relationship by applying the in-context **DateKey** values to the **ShipDateKey** column.
 
 3. Add the revised **Sales Shipped** measure to the first table visual.
 
