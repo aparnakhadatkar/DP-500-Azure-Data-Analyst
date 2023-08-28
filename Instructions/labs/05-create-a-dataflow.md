@@ -11,11 +11,11 @@ After completing this lab, you will be able to:
 - Use Power Query Online to develop a dataflow
 - Use Power BI Desktop to consume a dataflow
 
+## Estimated timing: 45 minutes
+
 ## Architecture Diagram
 
 ![](../images/lab5-archy.png)
-
-## Estimated timing: 45 minutes
 
 ### prerequisite Task: Start the SQL pool
 
@@ -458,6 +458,4 @@ In this task, you will stop the SQL pool.
 
 1. Pause the SQL pool.
 
-**You have successfully completed the lab**
-
-**End of the lab**
+## You have successfully completed the lab
