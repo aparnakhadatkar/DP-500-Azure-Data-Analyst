@@ -14,7 +14,7 @@ After completing this lab, you will be able to:
 
 ## Architecture Diagram
 
- ![](media/lab9-archy.png)
+![](../images/lab9-archy.png)
 
 ## Exercise 0: set up the prerequisites
 
