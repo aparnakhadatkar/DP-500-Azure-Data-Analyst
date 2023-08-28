@@ -354,11 +354,11 @@ In this task, you will set up the incremental refresh policy for the **Sales** t
 
    ![](../images1/dp500-10-24.png)
       
-   >**Note:Archive sata starting:** This setting determines the historical period. In this instance, Power BI will create two whole-year partitions for historic data.
+   >**Note: Archive sata starting:** This setting determines the historical period. In this instance, Power BI will create two whole-year partitions for historic data.
 
-   >**Note:Incrementally refresh data starting:** This setting determines the incremental refresh period in which all rows with a date/time in that period are included in the refresh partition(s) and refreshed with each refresh operation.
+   >**Note: Incrementally refresh data starting:** This setting determines the incremental refresh period in which all rows with a date/time in that period are included in the refresh partition(s) and refreshed with each refresh operation.
 
-   > **Note:Get the latest data in real time with DirectQuery** This setting enables fetching the latest changes from the selected table at the data source beyond the incremental refresh period by using DirectQuery. All rows with a date/time later than the incremental refresh period are included in a DirectQuery partition and fetched from the data source with every dataset query. This setting makes the table a hybrid table because it will contain import partitions and one DirectQuery partition.
+   > **Note: Get the latest data in real time with DirectQuery** This setting enables fetching the latest changes from the selected table at the data source beyond the incremental refresh period by using DirectQuery. All rows with a date/time later than the incremental refresh period are included in a DirectQuery partition and fetched from the data source with every dataset query. This setting makes the table a hybrid table because it will contain import partitions and one DirectQuery partition.
 
 3. **Save** the Power BI Desktop file.
 
