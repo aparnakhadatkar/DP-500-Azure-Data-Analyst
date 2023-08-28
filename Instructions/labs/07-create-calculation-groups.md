@@ -513,4 +513,11 @@ In this task, you'll finish up.
    
 3.  Close Tabular Editor.
 
+### Review
+In this lab, you have completed:
+- Create calculation groups
+- Format calculation items
+- Set calculation group precedence
+- Configure visuals to use calculation groups
+  
 ## You have successfully completed the lab
