@@ -15,13 +15,13 @@ After completing this lab, you will be able to:
 - Analyze data in a dataframe
 - Query data using Spark SQL
 - Visualize data with Spark
-  
+
+## Estimated timing: 45 minutes
+
 ## Architecture Diagram
 
  ![](../images/lab2-archy.png)
  
-## Estimated timing: 45 minutes
-
 ## Provision an Azure Synapse Analytics workspace
 
 You'll need an Azure Synapse Analytics workspace with access to data lake storage and an Apache Spark pool that you can use to query and process files in the data lake.
@@ -456,5 +456,3 @@ While **matplotlib** enables you to create complex charts of multiple types, it 
    >**Note**: To learn more about plotting with seaborn, see the [seaborn documentation](https://seaborn.pydata.org/index.html).
 
 **You have successfully completed the lab**
-
-**End of the lab**
