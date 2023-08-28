@@ -16,7 +16,7 @@ After completing this lab, you will be able to:
 
  ![](media/lab11-archy.png)
  
-## Excercise 1: Set up Power BI Desktop
+## Exercise 1: Set up Power BI Desktop
 
 ## Estimated timing: 30 minutes
 
@@ -103,7 +103,7 @@ In this task, you will review the pre-developed data model.
 
     >**Note**: The model comprises three dimension tables and two fact tables. The **Sales** fact table represents sales order details, while the **Targets** table represents quarterly sales targets. It's a classic star schema design. The bar across the top of some of the tables indicate they use DirectQuery storage mode. Every table that has a blue bar belongs to the same source group.
 
-## Excercise 2: Set up dual storage mode
+## Exercise 2: Set up dual storage mode
 
 In this exercise, you will set up dual storage mode.
 
