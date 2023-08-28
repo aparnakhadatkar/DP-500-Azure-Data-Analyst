@@ -14,7 +14,7 @@ After completing this lab, you will be able to:
 
 ## Architecture Diagram
 
-![](media/lab16-archy.png)
+![](../images/lab16-archy.png)
 
 ## Exercise 1: Publishing Data Model in Power BI
 
