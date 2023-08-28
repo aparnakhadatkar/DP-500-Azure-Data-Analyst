@@ -177,7 +177,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
             FORMAT = 'PARQUET'
         ) AS [result]
     ```
-    ![Screenshot showing the steps](../images/DP500-1-21.png)
+    ![Screenshot showing the steps](../images/DP500-1-21(1).png)
     
 1. Run the code and note that it returns sales order data in the same schema as the CSV files you explored earlier. The schema information is embedded in the parquet file, so the appropriate column names are shown in the results.
 
@@ -218,7 +218,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
     GROUP BY YEAR(OrderDate)
     ORDER BY OrderYear
     ```
-    ![Screenshot showing the steps](../images/DP500-1-25.png)
+    ![Screenshot showing the steps](../images/DP500-1-25(1).png)
     
 1. Review the results and note that they include only the sales counts for 2019 and 2020. This filtering is achieved by including a wildcard for the partition folder value in the BULK path (*year=\**) and a WHERE clause based on the *filepath* property of the results returned by OPENROWSET (which in this case has the alias *[result]*).
 
