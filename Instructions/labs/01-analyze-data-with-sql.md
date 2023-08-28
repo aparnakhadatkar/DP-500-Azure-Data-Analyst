@@ -13,6 +13,8 @@ After completing this lab, you will be able to:
 - Query different file formats using SQL
 - Create an external data source
 - Visualize the query results in chart
+
+## Estimated timing: 40 minutes
   
 ## Architecture Diagram
 
@@ -22,7 +24,6 @@ After completing this lab, you will be able to:
 
 This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage account to host the data lake, and also uploaded some data files to the data lake to perform the below tasks.
 
-## Estimated timing: 40 minutes
 
 ### Task 1: View files in the data lake
 
@@ -46,13 +47,13 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
 
 1. On the **Data** page, view the **Linked** tab and verify that your workspace includes a link to your Azure Data Lake Storage Gen2 storage account, which should have a name similar to **workspace<inject key="DeploymentID" enableCopy="false"/>** **(Primary - **datalake<inject key="DeploymentID" enableCopy="false"/>**)**.
 
-   ![Screenshot showing the Linked storage account with synapse ](../images/DP500-synapse01.png) 
+   ![Screenshot showing the Linked storage account with synapse ](../images/DP500-synapse01(1)1.png) 
    
 1. Expand your storage account and verify that it contains a file system container named **files** inside **workspace<inject key="DeploymentID" enableCopy="false"/>** **(Primary - **datalake<inject key="DeploymentID" enableCopy="false"/>**)**.
 
 1. Select the **files** container, and note that it contains a folder named **sales**. This folder contains the data files you are going to query.
 
-   ![Screenshot showing the Linked storage account with synapse ](../images/DP500-1-6.png)
+   ![Screenshot showing the Linked storage account with synapse ](../images/DP500-1-61.png)
    
 1. Open the **sales** folder, you can see the three sub folders titled **csv**, **json**, and **parquet** folders.
 
@@ -66,7 +67,7 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
 
    ![Screenshot showing the PREVIEW selection ](../images/DP500-1-9.png)
    
-   ![Screenshot showing the closing of PREVIEW selection ](../images/DP500-1-10.png)
+   ![Screenshot showing the closing of PREVIEW selection ](../images/DP500-1-101.png)
    
 1. Close the preview by clicking on **OK**, and then use the **&#8593;** button to navigate back to the **sales** folder.
 
@@ -86,7 +87,7 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
    
 1. In the **File type** list, select **Text format**, and then apply the settings to open a new SQL script that queries the data in the folder.
 
-   ![Screenshot showing the steps ](../images/DP500-1-12.png)
+   ![Screenshot showing the steps ](../images/DP500-1-121.png)
    
 1. In the **Properties** pane for **SQL Script 1** that is created, change the name to **Sales CSV query**, and change the result settings to show **All rows**. Then in the toolbar, select **Publish** to save the script and use the **Properties** button (which looks similar to **&#128463;.**) on the right end of the toolbar to hide the **Properties** pane.
 
@@ -110,7 +111,7 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
 
 1. In the **Connect to** list, ensure **Built-in** is selected - this represents the built-in SQL Pool that was created with your workspace.
 
-   ![Screenshot showing the steps](../images/DP500-1-14.png)
+   ![Screenshot showing the steps](../images/DP500-1-141.png)
    
 1. On the toolbar, use the **&#9655; Run** button to run the SQL code, and review the results, which should look similar to this:
 
@@ -148,7 +149,7 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
 
 8. Publish the changes to your script, and then close the script pane.
     
-    ![Screenshot showing the steps](../images/DP500-1-18.png)
+    ![Screenshot showing the steps](../images/DP500-1-181.png)
 
 ### Task 3: Use SQL to query parquet files
 
@@ -162,7 +163,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
    
 1. In the **File type** list, select **Parquet format**, and then apply the settings to open a new SQL script that queries the data in the folder.
 
-   ![Screenshot showing the steps](../images/DP500-1-20.png)
+   ![Screenshot showing the steps](../images/DP500-1-201.png)
    
 1. The script should look similar to this:
 
@@ -176,7 +177,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
             FORMAT = 'PARQUET'
         ) AS [result]
     ```
-    ![Screenshot showing the steps](../images/DP500-1-21.png)
+    ![Screenshot showing the steps](../images/DP500-1-21(1).png)
     
 1. Run the code and note that it returns sales order data in the same schema as the CSV files you explored earlier. The schema information is embedded in the parquet file, so the appropriate column names are shown in the results.
 
@@ -217,7 +218,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
     GROUP BY YEAR(OrderDate)
     ORDER BY OrderYear
     ```
-    ![Screenshot showing the steps](../images/DP500-1-25.png)
+    ![Screenshot showing the steps](../images/DP500-1-25(1).png)
     
 1. Review the results and note that they include only the sales counts for 2019 and 2020. This filtering is achieved by including a wildcard for the partition folder value in the BULK path (*year=\**) and a WHERE clause based on the *filepath* property of the results returned by OPENROWSET (which in this case has the alias *[result]*).
 
@@ -225,7 +226,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
 
 1. Name your script **Sales Parquet query** by clicking the Properties tab icon, and publish it. Then close the script pane.
 
-     ![Screenshot showing the steps](../images/DP500-1-27.png)
+     ![Screenshot showing the steps](../images/DP500-1-27(1).png)
 
 ### Task 4: Use SQL to query JSON files
 
@@ -239,7 +240,7 @@ JSON is another popular data format, so it's useful to be able to query .json fi
    
 1. In the **File type** list, select **Text format**, and then apply the settings to open a new SQL script that queries the data in the folder.
 
-    ![Screenshot showing the steps](../images/DP500-1-29.png)
+    ![Screenshot showing the steps](../images/DP500-1-29(1).png)
     
 1.  The script should look similar to this:
 
@@ -255,7 +256,7 @@ JSON is another popular data format, so it's useful to be able to query .json fi
         ) AS [result]
     ```
     
-    ![Screenshot showing the steps](../images/DP500-1-30.png)
+    ![Screenshot showing the steps](../images/DP500-1-(30).png)
     
     The script is designed to query comma-delimited (CSV) data rather than JSON, so you need to make a few modifications before it will work successfully.
 
@@ -300,7 +301,7 @@ JSON is another popular data format, so it's useful to be able to query .json fi
 
 1. Name your script **Sales JSON query** by clicking the properties tab icon, and publish it. Then close the script pane.
 
-   ![Screenshot showing the steps](../images/DP500-1-33.png)
+   ![Screenshot showing the steps](../images/DP500-1-(33).png)
 
 ## Access external data in a database
 
@@ -336,7 +337,7 @@ By defining an external data source in a database, you can use it to reference t
    
 1. Ensure that the script is connected to the **Built-in** SQL pool and the **master** database, and then run it.
 
-   ![Screenshot showing the steps](../images/DP500-1-36.png)
+   ![Screenshot showing the steps](../images/DP500-1-(36).png)
 
 1. Switch back to the **Data** page and use the **&#8635;** button at the top right of Synapse Studio to refresh the page. Then view the **Workspace** tab in the **Data** pane, where a **SQL database** list is now displayed. Expand this list to verify that the **Sales** database has been created.
 
@@ -352,7 +353,7 @@ By defining an external data source in a database, you can use it to reference t
 
     ![Screenshot showing the steps](../images/DP500-1-39.png)
     
-3.  Then in the new script pane, enter and run the following query:
+1.  Then in the new script pane, enter and run the following query:
 
     ```sql
     SELECT *
@@ -367,11 +368,11 @@ By defining an external data source in a database, you can use it to reference t
    
     ![Screenshot showing the steps](../images/DP500-1-40.png)
     
-    The query uses the external data source to connect to the data lake, and the OPENROWSET function now only need to reference the relative path to the .csv files.
+1. The query uses the external data source to connect to the data lake, and the OPENROWSET function now only need to reference the relative path to the .csv files.
     
      ![Screenshot showing the steps](../images/DP500-1-41.png)
 
-8. Modify the code as follows to query the parquet files using the data source and run the query.
+1. Modify the code as follows to query the parquet files using the data source and run the query.
 
     ```sql
     SELECT *
@@ -471,10 +472,15 @@ Now that you've explored various ways to query files in the data lake by using S
 1. Experiment with the charting functionality in the query editor. It offers some basic charting capabilities that you can use while interactively exploring data, and you can save charts as images to include in reports. However, functionality is limited compared to enterprise data visualization tools such as Microsoft Power BI.
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+   > - Hit the Validate button for the corresponding task.
+   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-**You have successfully completed the lab**
+### Review
+In this lab, you have completed:
+- Query different file formats using SQL
+- Create an external data source
+- Visualize the query results in chart
 
+## You have successfully completed the lab

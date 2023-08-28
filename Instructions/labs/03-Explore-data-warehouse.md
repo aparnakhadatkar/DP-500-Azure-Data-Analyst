@@ -13,12 +13,12 @@ After completing this lab, you will be able to:
 - Query the data warehouse tables
 - Create SQL queries
 
+## Estimated timing: 45 minutes
+
 ## Architecture Diagram
 
  ![](../images/lab3-archy.png)
  
-## Estimated timing: 45 minutes
-
 ## Provision an Azure Synapse Analytics workspace
 
 You'll need an Azure Synapse Analytics workspace with access to data lake storage and an Apache Spark pool that you can use to query and process files in the data lake.
@@ -53,7 +53,7 @@ In this lab, the data warehouse is hosted in a dedicated SQL pool in Azure Synap
 
    >**Note**: Sign-in in if prompted.
 
-    ![](../images1/mod3-ex1-task1-step5.png)
+    ![](../images/mod3-ex1-task1-step(5).png)
 
 1. On the left side of Synapse Studio, use the **&rsaquo;&rsaquo;** icon to expand the menu - this reveals the different pages within Synapse Studio that you'll use to manage resources and perform data analytics tasks.
 
@@ -73,7 +73,7 @@ In this lab, the data warehouse is hosted in a dedicated SQL pool in Azure Synap
 
 1. Expand **SQL database (1)**, the **sqldb<inject key="Deployment ID" enableCopy="false" /> (2)** pool, and its **Tables (3)** folder to see the tables in the database.
 
-   ![](../images1/mod3-ex1-task2-step2a.png)
+   ![](../images/mod3-ex1-task2-step2a(3).png)
 
    >**Note**: A relational data warehouse is typically based on a schema that consists of *fact* and *dimension* tables. The tables are optimized for analytical queries in which numeric metrics in the fact tables are aggregated by attributes of the entities represented by the dimension tables - for example, enabling you to aggregate Internet sales revenue by product, customer, date, and so on.
     
@@ -103,7 +103,7 @@ Numeric values in a relational data warehouse are stored in fact tables with rel
 
 1. On the **Data (1)** page, select the **sqldb<inject key="Deployment ID" enableCopy="false" />**  SQL pool and in its **...** menu, select **New SQL script** >**Empty script (3)**.
 
-    ![](../images1/mod3-ex2-task1-step1.png)
+    ![](../images/mod3-ex2-task1-step(1).png)
 
 1. When a new **SQL Script 1** tab opens, in its **Properties** pane, change the name of the script to **Analyze Internet Sales** and change the **Result settings per query** to return all rows. Then use the **Publish** button on the toolbar to save the script, and use the **Properties** button (which looks similar to **&#128463;.**) on the right end of the toolbar to close the **Properties** pane so you can see the script pane.
 
@@ -305,9 +305,9 @@ When exploring very large volumes of data, queries can take significant time and
    > **Tip**: See the [APPROX_COUNT_DISTINCT](https://docs.microsoft.com/sql/t-sql/functions/approx-count-distinct-transact-sql) function documentation for more details.
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+   > - Hit the Validate button for the corresponding task.
+   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
 ## Exercise 3: Challenge - Analyze reseller sales
@@ -329,4 +329,9 @@ When exploring very large volumes of data, queries can take significant time and
 
 1. When you're done, on the **Manage** page, pause the **sqldb<inject key="DeploymentID" enableCopy="false"/>** dedicated SQL pool.
 
-**You have successfully completed the lab**
+### Review
+In this lab, you have completed:
+- Query the data warehouse tables
+- Create SQL queries
+
+## You have successfully completed the lab

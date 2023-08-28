@@ -8,17 +8,17 @@ In this lab, you will use Power BI Desktop to develop a data model over the Azur
   
 After completing this lab, you will be able to:
 
-- Create a Power BI connection to an Azure Synapse Analytics SQL pool.
-- Develop model queries.
-- Organize the model diagram.
+- Create a Power BI connection to an Azure Synapse Analytics SQL pool
+- Develop model queries
+- Organize the model diagram
+
+## Estimated timing: 30 minutes
 
 ## Architecture Diagram
 
 ![](../images/lab4-archy.png)
 
 ## Exercise 1: Set up Power BI
-
-## Estimated timing: 30 minutes
 
 ### Task 1: In this task, you will set up Power BI.
 
@@ -132,7 +132,7 @@ In this task you will link your existing Power BI workspace to your Azure Synaps
 
 1. On the home page of Azure Synapse Studio, select **Visualize** to link your Power BI workspace.
 
-    ![](../images1/dp-lab4-14.png)
+    ![](../images/dp-lab4-(14).png)
 
 1. From the **Workspace name** dropdown, select the workspace you created in the previous task and select **Create**.
 
@@ -548,9 +548,9 @@ In this task, you will create five Power Query queries that will each load as a 
     ![](../images/dp500-57.png)
 	
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+    > - Hit the Validate button for the corresponding task.
+    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 ### Task 3: Organize the model diagram
@@ -593,9 +593,9 @@ In this task, you will organize the model diagram to easily understand the star 
 1. Close Power BI Desktop.
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+   > - Hit the Validate button for the corresponding task.
+   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 4: Pause the SQL pool
@@ -608,4 +608,10 @@ In this task, you will stop the SQL pool.
 
 1. Pause the SQL pool.
 
-**You have successfully completed the lab**
+### Review
+In this lab, you have completed:
+- Create a Power BI connection to an Azure Synapse Analytics SQL pool
+- Develop model queries
+- Organize the model diagram
+
+## You have successfully completed the lab

@@ -11,11 +11,11 @@ After completing this lab, you will be able to:
 - Use Power Query Online to develop a dataflow
 - Use Power BI Desktop to consume a dataflow
 
+## Estimated timing: 45 minutes
+
 ## Architecture Diagram
 
 ![](../images/lab5-archy.png)
-
-## Estimated timing: 45 minutes
 
 ### prerequisite Task: Start the SQL pool
 
@@ -29,11 +29,11 @@ In this task, you will start the SQL pool.
 
 1. Select the Azure Synapse Analytics instance.
    
-   ![](../images1/dp-500_05-workspace.png)
+   ![](../images/dp-500_05-workspace1.png)
 
 1. Locate and select the dedicated SQL pool named **sqldb<inject key="DeploymentID" enableCopy="false"/>**.
    
-   ![](../images1/dp-500_05-sql.png)
+   ![](../images/dp-500_05-sql1.png)
 
 1. Resume the dedicated SQL pool.
 
@@ -88,11 +88,11 @@ In this task, you will set up Power BI Desktop.
    >**Note** You will update the Power BI Desktop solution to use a dataflow to source date dimension data.
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+   > - Hit the Validate button for the corresponding task.
+   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
+   
 ### Task 2: Create a workspace
 
 In this task, you will create a workspace.
@@ -105,7 +105,7 @@ In this task, you will create a workspace.
 
 1. In the **Create a workspace** pane (located at the right), in the **Workspace name** box, enter a name for the workspace as **DP500workspace-<inject key="Deployment ID" enableCopy="false" />**. And Click **Apply**.
 
-   ![](../images/createmyworkspace.png)
+   ![](../images/createmyworkspace1.png)
    
    >**Note** The workspace name must be unique within the tenant.
  
@@ -139,7 +139,7 @@ In this task, you will create a dataflow that represents a consistent definition
 
 1. Switch back to the Power BI service, select **New (1)** and then **Dataflow (2)**.
 
-   ![](../images/dataflow.png)
+   ![](../images/dataflow1.png)
 
 1. In the **Define new tables** tile, select **Add new tables**.
 
@@ -159,11 +159,11 @@ In this task, you will create a dataflow that represents a consistent definition
   
     - Ensure the Authentication kind is **Organizational account**. If you are prompted to sign in, use the lab provided credentials.
 
-    ![](../images1/dp500_05-connectionSettings.png)
+    ![](../images/dp500_05-connectionSettings1.png)
          
    >**Note**: We can also fetch the server name by signing into the azure portal and navigating to **Connection Strings** under the dedicated sql pool resource present in lab05-rg, which is well explained in the below screenshot.
     
-    ![](../images/nameofsynapticsendpoint.png)
+    ![](../images/nameofsynapticsendpoint1.png)
      
    >**Note**: The Server name should look similar to: *synapsewsxxxxx.sql.azuresynapse.net
 
@@ -334,9 +334,9 @@ In this task, you will create a dataflow that represents a consistent definition
    >**Note** In addition to configuring settings, permission should be granted to all content creators to consume the dataflow.
 	
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+   > - Hit the Validate button for the corresponding task.
+   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
    
 ### Exercise 3: Consume a dataflow
@@ -458,4 +458,9 @@ In this task, you will stop the SQL pool.
 
 1. Pause the SQL pool.
 
-**You have successfully completed the lab**
+### Review
+In this lab, you have completed:
+- Use Power Query Online to develop a dataflow
+- Use Power BI Desktop to consume a dataflow
+
+## You have successfully completed the lab

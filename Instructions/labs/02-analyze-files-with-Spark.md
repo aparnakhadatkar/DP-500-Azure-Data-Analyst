@@ -15,13 +15,13 @@ After completing this lab, you will be able to:
 - Analyze data in a dataframe
 - Query data using Spark SQL
 - Visualize data with Spark
-  
+
+## Estimated timing: 45 minutes
+
 ## Architecture Diagram
 
  ![](../images/lab2-archy.png)
  
-## Estimated timing: 45 minutes
-
 ## Provision an Azure Synapse Analytics workspace
 
 You'll need an Azure Synapse Analytics workspace with access to data lake storage and an Apache Spark pool that you can use to query and process files in the data lake.
@@ -86,7 +86,7 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
 
 1. In the new **Notebook 1 (1)** tab that opens, Select the **... (2)** icon to open the **Attach to** list, select your Spark pool  **spool<inject key="Deployment ID" enableCopy="false" /> (3)**. Then use the **&#9655; Run all (4)** button to run all of the cells in the notebook (there's currently only one!).
  
-   ![](../images1/Mod2-Ex2-Task2-Step2a.png)
+   ![](../images/Mod2-Ex2-Task2-Step(2a).png)
 
     >**Note**: Since this is the first time you've run any Spark code in this session, the Spark pool must be started. This means that the first run in the session can take a few minutes. Subsequent runs will be quicker.
   
@@ -152,9 +152,9 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
 1. Run the new cell and verify that the dataframe schema matches the **orderSchema** you defined. The **printSchema** function can be useful when using a dataframe with an automatically inferred schema.
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+   > - Hit the Validate button for the corresponding task.
+   > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Exercise 2: Analyze data in a dataframe
@@ -455,5 +455,12 @@ While **matplotlib** enables you to create complex charts of multiple types, it 
 
    >**Note**: To learn more about plotting with seaborn, see the [seaborn documentation](https://seaborn.pydata.org/index.html).
 
-**You have successfully completed the lab**
-
+### Review
+In this lab, you have completed:
+- Query data in files
+- Use Spark to explore data
+- Analyze data in a dataframe
+- Query data using Spark SQL
+- Visualize data with Spark
+  
+## You have successfully completed the lab

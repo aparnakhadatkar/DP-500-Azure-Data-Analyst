@@ -12,7 +12,9 @@ After completing this lab, you will be able to:
 - Format calculation items
 - Set calculation group precedence
 - Configure visuals to use calculation groups
-  
+
+## Estimated timing: 45 minutes
+
 ## Architecture Diagram
 
  ![](../images/lab7-archy.png)
@@ -20,8 +22,6 @@ After completing this lab, you will be able to:
 #### Note: In this lab session, PowerBI Desktop and Tabular Editor have already been installed for the ease of execution.
 
 ## Exercise 1: Set up Power BI Desktop
-
-## Estimated timing: 45 minutes
 
 ### Task 1: Set up Power BI Desktop
 
@@ -506,11 +506,18 @@ In this task, you'll finish up.
 2.  Close Power BI Desktop.
  
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+    > - Hit the Validate button for the corresponding task.
+    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
    
 3.  Close Tabular Editor.
 
-**You have successfully completed the lab**
+### Review
+In this lab, you have completed:
+- Create calculation groups
+- Format calculation items
+- Set calculation group precedence
+- Configure visuals to use calculation groups
+  
+## You have successfully completed the lab
