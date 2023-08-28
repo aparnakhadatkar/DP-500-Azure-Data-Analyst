@@ -1,14 +1,21 @@
 # Lab5 - Create a dataflow
 
-## Overview
+## Lab scenario
 
-In this lab, you will create a dataflow to deliver date dimension data sourced from the Azure Synapse Adventure Works data warehouse. The dataflow will provide a consistent definition of date-related data for use by the organization's business analysts.
+In this lab, you will create a dataflow involves designing a system to move data from a source to a destination, defining the sequence of operations and transformations applied to the data along the way.
 
-In this lab, you learn how to:
+## Lab objectives
 
-- Use Power Query Online to develop a dataflow.
+After completing this lab, you will be able to:
 
-- Use Power BI Desktop to consume a dataflow.
+- Use Power Query Online to develop a dataflow
+- Use Power BI Desktop to consume a dataflow
+
+## Architecture Diagram
+
+ ![](media/lab5-archy.png)
+
+## Estimated timing: 45 minutes
 
 ### prerequisite Task: Start the SQL pool
 
@@ -52,13 +59,13 @@ In this task, you will set up Power BI Desktop.
 
    ![](../images/mod5-signin.png)
     
-4. You will be redirected to the Power BI sign-up page in Microsoft Edge. Select **Continue** to complete the sign up.
+1. You will be redirected to the Power BI sign-up page in Microsoft Edge. Select **Continue** to complete the sign up.
 
    ![](../images/dp500-create-a-star-schema-model-image3b.png)
 	
    >**Note**: If not redirected, go to [https://powerbi.com](https://powerbi.com/) and use the lab credentials to complete the sign in process.
 
-5. Enter a 10 digit phone number and select **Get started**. Select **Get started** once more. You will be redirected to Power BI.
+1. Enter a 10 digit phone number and select **Get started**. Select **Get started** once more. You will be redirected to Power BI.
 
 1. At the top-right, select the profile icon, and then select **Start trial**.
 
@@ -80,12 +87,11 @@ In this task, you will set up Power BI Desktop.
 
    >**Note** You will update the Power BI Desktop solution to use a dataflow to source date dimension data.
 
-1. **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-
-   - Click the **(...) icon** located at the upper right corner of the lab guide section and navigate to the **Lab Validation** Page.
-   - Hit the **Validate** button for the corresponding task.
-   - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at [labs-support@spektrasystems.com](labs-support@spektrasystems.com).We are available 24/7 to help you out.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 2: Create a workspace
 
@@ -327,13 +333,12 @@ In this task, you will create a dataflow that represents a consistent definition
 
    >**Note** In addition to configuring settings, permission should be granted to all content creators to consume the dataflow.
 	
-1. **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-
-   - Click the **(...) icon** located at the upper right corner of the lab guide section and navigate to the **Lab Validation** Page.
-   - Hit the **Validate** button for the corresponding task.
-   - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at [labs-support@spektrasystems.com](labs-support@spektrasystems.com).We are available 24/7 to help you out.
-
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   
 ### Exercise 3: Consume a dataflow
 
 In this exercise, in the Power BI Desktop solution, you will replace the existing **Date** table with a new table that sources its data from the dataflow.
