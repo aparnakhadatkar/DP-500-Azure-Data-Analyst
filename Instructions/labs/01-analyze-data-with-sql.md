@@ -353,7 +353,7 @@ By defining an external data source in a database, you can use it to reference t
 
     ![Screenshot showing the steps](../images/DP500-1-39.png)
     
-3.  Then in the new script pane, enter and run the following query:
+1.  Then in the new script pane, enter and run the following query:
 
     ```sql
     SELECT *
@@ -368,11 +368,11 @@ By defining an external data source in a database, you can use it to reference t
    
     ![Screenshot showing the steps](../images/DP500-1-40.png)
     
-    The query uses the external data source to connect to the data lake, and the OPENROWSET function now only need to reference the relative path to the .csv files.
+1. The query uses the external data source to connect to the data lake, and the OPENROWSET function now only need to reference the relative path to the .csv files.
     
      ![Screenshot showing the steps](../images/DP500-1-41.png)
 
-8. Modify the code as follows to query the parquet files using the data source and run the query.
+1. Modify the code as follows to query the parquet files using the data source and run the query.
 
     ```sql
     SELECT *
