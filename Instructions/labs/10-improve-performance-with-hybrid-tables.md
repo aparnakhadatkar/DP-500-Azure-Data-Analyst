@@ -13,7 +13,7 @@ After completing this lab, you will be able to:
 
 ## Architecture Diagram
 
- ![](media/lab10-archy.png)
+![](../images/lab10-archy.png)
 
 ## Exercise 1: Set up the Azure SQL Database
 
