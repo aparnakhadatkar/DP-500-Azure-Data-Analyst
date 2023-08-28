@@ -16,7 +16,7 @@ After completing this lab, you will be able to:
   
 ## Architecture Diagram
 
- ![](.../media/lab1-archy.png)
+ ![](../images/lab1-archy.png)
 
 ## Exercise 1: Query data in files. 
 
