@@ -321,7 +321,10 @@ In this task, you will finish up.
    > - Hit the Validate button for the corresponding task.
    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-   
-**You have successfully completed the lab**
 
-**End of the lab**
+### Review
+In this lab, you have completed:
+- Use Best Practice Analyzer (BPA)
+- Use DAX Studio
+   
+## You have successfully completed the lab
