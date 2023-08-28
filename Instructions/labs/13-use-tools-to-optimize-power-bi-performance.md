@@ -13,7 +13,7 @@ After completing this lab, you will be able to:
 
 ## Architecture Diagram
 
- ![](media/lab13-archyy.png)
+![](../images/lab13-archyy.png)
 
 ## Excercise 1: Use Best Practice Analyzer
 
