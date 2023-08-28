@@ -2,7 +2,22 @@
 
 Azure Synapse Analytics is built on a scalable set capabilities to support enterprise data warehousing; including file-based data analytics in a data lake as well as large-scale relational data warehouses and the data transfer and transformation pipelines used to load them. In this lab, you'll explore how to use a dedicated SQL pool in Azure Synapse Analytics to store and query data in a relational data warehouse.
 
-This lab will take approximately **45** minutes to complete.
+## Lab scenario
+
+In this lab, you will explore a relational data warehouse that entails examining and querying a structured database that follows the relational model, consisting of tables with predefined schemas and relationships.
+
+## Lab objectives
+
+After completing this lab, you will be able to:
+
+- Query the data warehouse tables
+- Create SQL queries
+
+## Architecture Diagram
+
+ ![](media/lab3-archy.png)
+ 
+## Estimated timing: 45 minutes
 
 ## Provision an Azure Synapse Analytics workspace
 
@@ -60,23 +75,23 @@ In this lab, the data warehouse is hosted in a dedicated SQL pool in Azure Synap
 
    ![](../images1/mod3-ex1-task2-step2a.png)
 
-   A relational data warehouse is typically based on a schema that consists of *fact* and *dimension* tables. The tables are optimized for analytical queries in which    numeric metrics in the fact tables are aggregated by attributes of the entities represented by the dimension tables - for example, enabling you to aggregate          Internet sales revenue by product, customer, date, and so on.
+   >**Note**: A relational data warehouse is typically based on a schema that consists of *fact* and *dimension* tables. The tables are optimized for analytical queries in which numeric metrics in the fact tables are aggregated by attributes of the entities represented by the dimension tables - for example, enabling you to aggregate Internet sales revenue by product, customer, date, and so on.
     
 1. Expand the **dbo.FactInternetSales** table and its **Columns** folder to see the columns in this table. Note that many of the columns are *keys* that reference rows in the dimension tables. Others are numeric values (*measures*) for analysis.
     
-   The keys are used to relate a fact table to one or more dimension tables, often in a *star* schema; in which the fact table is directly related to each dimension table (forming a multi-pointed "star" with the fact table at the center).
+   >**Note**: The keys are used to relate a fact table to one or more dimension tables, often in a *star* schema; in which the fact table is directly related to each dimension table (forming a multi-pointed "star" with the fact table at the center).
 
 1. View the columns for the **dbo.DimPromotion** table, and note that it has a unique **PromotionKey** that uniquely identifies each row in the table. It also has an **AlternateKey**.
 
-   Usually, data in a data warehouse has been imported from one or more transactional sources. The *alternate* key reflects the business identifier for the instance of this entity in the source, but a unique numeric *surrogate* key is usually generated to uniquely identify each row in the data warehouse dimension table. One of the benefits of this approach is that it enables the data warehouse to contain multiple instances of the same entity at different points in time (for example, records for the same customer reflecting their address at the time an order was placed).
+   >**Note**: Usually, data in a data warehouse has been imported from one or more transactional sources. The *alternate* key reflects the business identifier for the instance of this entity in the source, but a unique numeric *surrogate* key is usually generated to uniquely identify each row in the data warehouse dimension table. One of the benefits of this approach is that it enables the data warehouse to contain multiple instances of the same entity at different points in time (for example, records for the same customer reflecting their address at the time an order was placed).
 
 1. View the columns for the **dbo.DimProduct**, and note that it contains a **ProductSubcategoryKey** column, which references the **dbo.DimProductSubcategory** table, which in turn contains a **ProductCategoryKey** column that references the  **dbo.DimProductCategory** table.
 
-   In some cases, dimensions are partially normalized into multiple related tables to allow for different levels of granularity - such as products that can be grouped into subcategories and categories. This results in a simple star being extended to a *snowflake* schema, in which the central fact table is related to a dimension table, which is turn related to further dimension tables.
+   >**Note**: In some cases, dimensions are partially normalized into multiple related tables to allow for different levels of granularity - such as products that can be grouped into subcategories and categories. This results in a simple star being extended to a *snowflake* schema, in which the central fact table is related to a dimension table, which is turn related to further dimension tables.
 
 1. View the columns for the **dbo.DimDate** table, and note that it contains multiple columns that reflect different temporal attributes of a date - including the day of week, day of month, month, year, day name, month name, and so on.
 
-   Time dimensions in a data warehouse are usually implemented as a dimension table containing a row for each of the smallest temporal units of granularity (often called the *grain* of the dimension) by which you want to aggregate the measures in the fact tables. In this case, the lowest grain at which measures can be aggregated is an individual date, and the table contains a row for each date from the first to the last date referenced in the data. The attributes in the **DimDate** table enable analysts to aggregate measures based on any date key in the fact table, using a consistent set of temporal attributes (for example, viewing orders by month based on the order date). The **FactInternetSales** table contains three keys that relate to the **DimDate** table: **OrderDateKey**, **DueDateKey**, and **ShipDateKey**.
+   >**Note**: Time dimensions in a data warehouse are usually implemented as a dimension table containing a row for each of the smallest temporal units of granularity (often called the *grain* of the dimension) by which you want to aggregate the measures in the fact tables. In this case, the lowest grain at which measures can be aggregated is an individual date, and the table contains a row for each date from the first to the last date referenced in the data. The attributes in the **DimDate** table enable analysts to aggregate measures based on any date key in the fact table, using a consistent set of temporal attributes (for example, viewing orders by month based on the order date). The **FactInternetSales** table contains three keys that relate to the **DimDate** table: **OrderDateKey**, **DueDateKey**, and **ShipDateKey**.
 
 ## Excercise 2: Query the data warehouse tables
 
@@ -123,7 +138,7 @@ Numeric values in a relational data warehouse are stored in fact tables with rel
     ORDER BY Year, Month;
     ```
 
-    Note that the attributes in the time dimension enable you to aggregate the measures in the fact table at multiple hierarchical levels - in this case, year and month. This is a common pattern in data warehouses.
+    >**Note**: The attributes in the time dimension enable you to aggregate the measures in the fact table at multiple hierarchical levels - in this case, year and month. This is a common pattern in data warehouses.
 
 1. Modify the query as follows to remove the month and add a second dimension to the aggregation, and then **&#9655; Run** it to view the results (which show yearly Internet sales totals for each region):
 
@@ -139,7 +154,7 @@ Numeric values in a relational data warehouse are stored in fact tables with rel
     ORDER BY Year, Region;
     ```
 
-    Note that geography is a *snowflake* dimension that is related to the Internet sales fact table through the customer dimension. You therefore need two joins in the query to aggregate Internet sales by geography.
+    >**Note**: Geography is a *snowflake* dimension that is related to the Internet sales fact table through the customer dimension. You therefore need two joins in the query to aggregate Internet sales by geography.
 
 1. Modify and **re-run** the query to add another snowflake dimension and aggregate the yearly regional sales by product category:
 
@@ -159,7 +174,7 @@ Numeric values in a relational data warehouse are stored in fact tables with rel
     ORDER BY Year, ProductCategory, Region;
     ```
 
-    This time, the snowflake dimension for product category requires three joins to reflect the hierarchical relationship between products, subcategories, and categories.
+    >**Note**: This time, the snowflake dimension for product category requires three joins to reflect the hierarchical relationship between products, subcategories, and categories.
 
 1. **Publish** the script to save it.
 
@@ -249,7 +264,7 @@ Another common requirement when analyzing large volumes of data is to group the 
 
 1. Publish the updated script to save the changes.
 
-> **Tip**: ROW_NUMBER and RANK are examples of ranking functions available in Transact-SQL. For more details, see the [Ranking Functions](https://docs.microsoft.com/sql/t-sql/functions/ranking-functions-transact-sql) reference in the Transact-SQL language documentation.
+   > **Tip**: ROW_NUMBER and RANK are examples of ranking functions available in Transact-SQL. For more details, see the [Ranking Functions](https://docs.microsoft.com/sql/t-sql/functions/ranking-functions-transact-sql) reference in the Transact-SQL language documentation.
 
 ### Task 3: Retrieve an approximate count
 
@@ -289,11 +304,11 @@ When exploring very large volumes of data, queries can take significant time and
 
    > **Tip**: See the [APPROX_COUNT_DISTINCT](https://docs.microsoft.com/sql/t-sql/functions/approx-count-distinct-transact-sql) function documentation for more details.
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
 ## Excercise 3: Challenge - Analyze reseller sales
 
