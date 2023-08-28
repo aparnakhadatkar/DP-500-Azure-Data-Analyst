@@ -14,7 +14,7 @@ After completing this lab, you will be able to:
 
 ## Architecture Diagram
 
- ![](media/lab14-archy.png)
+![](../images/lab14-archy.png)
 
 ## Exercise 1: Setting Up Database using SQL Server Management Studio (SSMS).
 
