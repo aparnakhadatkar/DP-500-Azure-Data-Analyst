@@ -1,20 +1,24 @@
 # Lab8 - Create a composite model
 
-## Overview
+## Lab scenario
 
-**The estimated time to complete the lab is 30 minutes.**
+In this lab, you will create a composite model by adding a table to a pre-developed DirectQuery model
 
-In this lab, you will create a composite model by adding a table to a pre-developed DirectQuery model.
+## Lab objectives
+  
+After completing this lab, you will be able to:
 
-In this lab, you learn how to:
+- Create a composite model
+- Create model relationships
+- Create measures
 
-- Create a composite model.
+## Architecture Diagram
 
-- Create model relationships.
-
-- Create measures.
+ ![](media/lab8-archy.png)
 
 ## Exercise 1: Set up Power BI Desktop
+
+## Estimated timing: 30 minutes
 
 ### Task 1: Set up Power BI Desktop
 
@@ -308,10 +312,10 @@ In this task, you will finish up.
     
 1. Close Power BI Desktop.
 
-   **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-     > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-     > - If you need any assistance, please contact us at labs-support@spektrasystems.com.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 **You have successfully completed the lab**
