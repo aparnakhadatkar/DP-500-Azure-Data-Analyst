@@ -132,7 +132,7 @@ In this task you will link your existing Power BI workspace to your Azure Synaps
 
 1. On the home page of Azure Synapse Studio, select **Visualize** to link your Power BI workspace.
 
-    ![](../images1/dp-lab4-14.png)
+    ![](../images/dp-lab4-(14).png)
 
 1. From the **Workspace name** dropdown, select the workspace you created in the previous task and select **Create**.
 
