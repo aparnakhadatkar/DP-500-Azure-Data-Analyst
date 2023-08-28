@@ -12,13 +12,13 @@ After completing this lab, you will be able to:
 - Create model relationships
 - Create measures
 
+## Estimated timing: 30 minutes
+
 ## Architecture Diagram
 
 ![](../images/lab8-archy.png)
 
 ## Exercise 1: Set up Power BI Desktop
-
-## Estimated timing: 30 minutes
 
 ### Task 1: Set up Power BI Desktop
 
