@@ -137,7 +137,7 @@ In this task, you will set up automatic page refresh.
      ![](../images1/dp-500-lab14-9.png)
 	 
      >**Note**: Automatic page refresh is a page-level setting. You can enable it for specific pages in the report.
-     >**Note**: First select an empty area of the report page (below the graph) or else you won't find **Page refresh** setting
+     >**Note**: First select an empty area of the report page (below the graph) or else you won't find **Page refresh** setting.
 
 1. In the **Performance analyzer** pane, notice that the report visuals just refreshed.
 
