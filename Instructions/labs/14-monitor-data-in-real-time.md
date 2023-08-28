@@ -12,13 +12,13 @@ After completing this lab, you will be able to:
 - Set up automatic page fresh
 - Create and use the change detection feature
 
+## Estimated timing: 30 minutes
+
 ## Architecture Diagram
 
 ![](../images/lab14-archy.png)
 
 ## Exercise 1: Setting Up Database using SQL Server Management Studio (SSMS).
-
-## Estimated timing: 30 minutes
 
 In this exercise, you will set up Database using SQL Server Management Studio (SSMS)
 
@@ -223,6 +223,10 @@ In this task, you will finish up.
    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-**You have successfully completed the lab**
+### Review
+In this lab, you have completed:
+- Use Performance analyzer to review refresh activities
+- Set up automatic page fresh
+- Create and use the change detection feature
 
-**End of the lab**
+## You have successfully completed the lab
