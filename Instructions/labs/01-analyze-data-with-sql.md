@@ -4,7 +4,7 @@ SQL is probably the most used language for working with data in the world. Most 
 
 ## Lab scenario
 
-In this lab, you will querying files using a serverless SQL pool allows executing SQL queries directly on data stored in files, without the need for managing or provisioning dedicated infrastructure. It provides on-demand scalability and efficient data processing capabilities for analyzing and retrieving insights from file-based data sources.
+In this lab, you will be querying files using a serverless SQL pool allows executing SQL queries directly on data stored in files, without the need for managing or provisioning dedicated infrastructure. It provides on-demand scalability and efficient data processing capabilities for analyzing and retrieving insights from file-based data sources.
 
 ## Lab objectives
   
@@ -54,7 +54,7 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
 
    ![Screenshot showing the Linked storage account with synapse ](../images/DP500-1-6.png)
    
-1. Open the **sales** folder,you can see the three sub folders titled **csv**, **json**, and **parquet** folders.
+1. Open the **sales** folder, you can see the three sub folders titled **csv**, **json**, and **parquet** folders.
 
    ![Screenshot showing the subfolders in the sales folder ](../images/DP500-1-7.png)
    
@@ -154,7 +154,7 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
 
 While CSV is an easy format to use, it's common in big data processing scenarios to use file formats that are optimized for compression, indexing, and partitioning. One of the most common of these formats is *parquet*.
 
-1. In the **files** tab contaning the file system for your data lake, return to the **sales** folder so you can see the **csv**, **json**, and **parquet** folders.
+1. In the **files** tab containing the file system for your data lake, return to the **sales** folder so you can see the **csv**, **json**, and **parquet** folders.
 
 1. Select the **parquet** folder, and then in the **New SQL script** list on the toolbar, select **Select TOP 100 rows**.
 
@@ -178,7 +178,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
     ```
     ![Screenshot showing the steps](../images/DP500-1-21.png)
     
-1. Run the code, and note that it returns sales order data in the same schema as the CSV files you explored earlier. The schema information is embedded in the parquet file, so the appropriate column names are shown in the results.
+1. Run the code and note that it returns sales order data in the same schema as the CSV files you explored earlier. The schema information is embedded in the parquet file, so the appropriate column names are shown in the results.
 
     ![Screenshot showing the steps](../images/DP500-1-22.png)
     
@@ -219,7 +219,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
     ```
     ![Screenshot showing the steps](../images/DP500-1-25.png)
     
-1. Review the results and note that they include only the sales counts for 2019 and 2020. This filtering is achieved by inclusing a wildcard for the partition folder value in the BULK path (*year=\**) and a WHERE clause based on the *filepath* property of the results returned by OPENROWSET (which in this case has the alias *[result]*).
+1. Review the results and note that they include only the sales counts for 2019 and 2020. This filtering is achieved by including a wildcard for the partition folder value in the BULK path (*year=\**) and a WHERE clause based on the *filepath* property of the results returned by OPENROWSET (which in this case has the alias *[result]*).
 
     ![Screenshot showing the steps](../images/DP500-1-26.png)
 
@@ -229,7 +229,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
 
 ### Task 4: Use SQL to query JSON files
 
-JSON is another popular data format, so it;s useful to be able to query .json files in a serverless SQL pool.
+JSON is another popular data format, so it's useful to be able to query .json files in a serverless SQL pool.
 
 1. In the **files** tab containing the file system for your data lake, return to the **sales** folder so you can see the **csv**, **json**, and **parquet** folders.
 
@@ -257,7 +257,7 @@ JSON is another popular data format, so it;s useful to be able to query .json fi
     
     ![Screenshot showing the steps](../images/DP500-1-30.png)
     
-    The script is designed to query comma-delimited (CSV) data rather then JSON, so you need to make a few modifications before it will work successfully.
+    The script is designed to query comma-delimited (CSV) data rather than JSON, so you need to make a few modifications before it will work successfully.
 
 1. Modify the script as follows (replacing *datalakexxxxxxx* with the name of your data lake storage account as **datalake<inject key="DeploymentID" enableCopy="false"/>**) to:
     - Remove the parser version parameter.
