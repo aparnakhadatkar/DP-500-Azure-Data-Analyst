@@ -1,20 +1,24 @@
 # Lab14 - Monitor data in real time
 
-## Overview
-
-**The estimated time to complete the lab is 30 minutes**
+## Lab scenario
 
 In this lab, you will configure a report to use automatic page refresh. That way, it will be possible for report consumers to monitor real-time internet sales results.
 
-In this lab, you learn how to:
+## Lab objectives
 
-- Use Performance analyzer to review refresh activities.
+After completing this lab, you will be able to:
 
-- Set up automatic page fresh.
+- Use Performance analyzer to review refresh activities
+- Set up automatic page fresh
+- Create and use the change detection feature
 
-- Create and use the change detection feature.
+## Architecture Diagram
+
+ ![](media/lab14-archy.png)
 
 ## Exercise 1: Setting Up Database using SQL Server Management Studio (SSMS).
+
+## Estimated timing: 30 minutes
 
 In this exercise, you will set up Database using SQL Server Management Studio (SSMS)
 
@@ -50,7 +54,7 @@ In this task, you will use SQL Server Management Studio (SSMS) to setup the data
 
 9. Press **Ctrl+O** to access the **Open File** window. Select **2-InsertOrders (1)** sql file and click **Opene (2)**
 
-     ![](../images1/dp-500-lab14-4.png)
+   ![](../images1/dp-500-lab14-4.png)
 	
 10. Review this script also.
 
@@ -98,13 +102,13 @@ In this task, you will review the pre-developed report.
 
 3. In the **Performance analyzer** pane (located to the right of the **Visualizations** pane), select **Start recording**.
 
-    ![](../images1/dp-500-lab14-6.png)
+   ![](../images1/dp-500-lab14-6.png)
 
-     >**Note**: Performance analyzer inspects and displays the duration necessary to update or refresh the visuals. Each visual issues at least one query to the source database. For more information, see [Use Performance Analyzer to examine report element performance](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer).
+   >**Note**: Performance analyzer inspects and displays the duration necessary to update or refresh the visuals. Each visual issues at least one query to the source database. For more information, see [Use Performance Analyzer to examine report element performance](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer).
 
 4. Select **Refresh visuals**.
 
-    ![](../images1/dp-500-lab14-7.png)
+   ![](../images1/dp-500-lab14-7.png)
 
 5. Notice that the report visuals update to show the latest internet sales results.
 
@@ -183,7 +187,7 @@ In this task, you will set up change detection.
 
     >**Note**: Power BI now uses the change detection measure to query the source database every five seconds. Each time, Power BI stores the result so it can compare it the next time it's used. When the results differ, it means the data has changed (in this case, the database inserted new internet sales orders). In this case, Power BI refreshes all report page visuals.
 
-     >**Note**: Once published to the Power BI service, Power BI only supports change detection measures for Premium capacities.
+    >**Note**: Once published to the Power BI service, Power BI only supports change detection measures for Premium capacities.
 
 1. In the **Performance analyzer** pane, select **Clear**.
 
@@ -193,7 +197,7 @@ In this task, you will set up change detection.
 
 1. Notice that sometimes multiple change detection queries happen before Power BI Desktop refreshes the report visuals.
 
-    >**Note**: That's because the database inserted no new internet sales orders at that time. This set up is now more efficient because report visuals only refresh when necessary.
+   >**Note**: That's because the database inserted no new internet sales orders at that time. This set up is now more efficient because report visuals only refresh when necessary.
 
 ### Finish up
 
@@ -213,10 +217,10 @@ In this task, you will finish up.
 
 1. Close SSMS.
 
-   **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:  
-   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. 
+  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+  > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+  > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+  > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+  > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 **You have successfully completed the lab**
