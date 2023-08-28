@@ -2,7 +2,25 @@
 
 Apache Spark is an open source engine for distributed data processing, and is widely used to explore, process, and analyze huge volumes of data in data lake storage. Spark is available as a processing option in many data platform products, including Azure HDInsight, Azure Databricks, and Azure Synapse Analytics on the Microsoft Azure cloud platform. One of the benefits of Spark is support for a wide range of programming languages, including Java, Scala, Python, and SQL; making Spark a very flexible solution for data processing workloads including data cleansing and manipulation, statistical analysis and machine learning, and data analytics and visualization.
 
-This lab will take approximately **45** minutes to complete.
+## Lab scenario
+
+In this lab, you will analyze data in a data lake with Spark involves utilizing Apache Spark's distributed computing framework to process and derive insights from large volumes of data stored in a data lake.
+
+## Lab objectives
+
+After completing this lab, you will be able to:
+
+- Query data in files
+- Use Spark to explore data
+- Analyze data in a dataframe
+- Query data using Spark SQL
+- Visualize data with Spark
+  
+## Architecture Diagram
+
+ ![](media/lab2-archy.png)
+ 
+## Estimated timing: 45 minutes
 
 ## Provision an Azure Synapse Analytics workspace
 
@@ -133,12 +151,11 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
     
 1. Run the new cell and verify that the dataframe schema matches the **orderSchema** you defined. The **printSchema** function can be useful when using a dataframe with an automatically inferred schema.
 
-1. **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-
-   - Click the **(...) icon** located at the upper right corner of the lab guide section and navigate to the **Lab Validation** Page.
-   - Hit the **Validate** button for the corresponding task.
-   - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at [labs-support@spektrasystems.com](labs-support@spektrasystems.com).We are available 24/7 to help you out.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Excercise 2: Analyze data in a dataframe
 
@@ -234,7 +251,7 @@ While it's useful to be able to embed SQL statements into a cell containing PySp
     - The SQL code references the **salesorder** view that you created previously using PySpark.
     - The output from the SQL query is automatically displayed as the result under the cell.
 
-> **Note**: For more information about Spark SQL and dataframes, see the [Spark SQL documentation](https://spark.apache.org/docs/2.2.0/sql-programming-guide.html).
+      **Note**: For more information about Spark SQL and dataframes, see the [Spark SQL documentation](https://spark.apache.org/docs/2.2.0/sql-programming-guide.html).
 
 ## Excercise 4: Visualize data with Spark
 
@@ -283,7 +300,7 @@ A picture is proverbially worth a thousand words, and a chart is often better th
 
 1. Run the code and observe that it returns a Spark dataframe containing the yearly revenue.
 
-    To visualize the data as a chart, we'll start by using the **matplotlib** Python library. This library is the core plotting library on which many others are based, and provides a great deal of flexibility in creating charts.
+   >**Note**: To visualize the data as a chart, we'll start by using the **matplotlib** Python library. This library is the core plotting library on which many others are based, and provides a great deal of flexibility in creating charts.
 
 1. Add a new code cell to the notebook, and add the following code to it:
 
@@ -327,7 +344,7 @@ A picture is proverbially worth a thousand words, and a chart is often better th
 
 1. Re-run the code cell and view the results. The chart now includes a little more information.
 
-    A plot is technically contained with a **Figure**. In the previous examples, the figure was created implicitly for you; but you can create it explicitly.
+   >**Note**: A plot is technically contained with a **Figure**. In the previous examples, the figure was created implicitly for you; but you can create it explicitly.
 
 1. Modify the code to plot the chart as follows:
 
@@ -354,7 +371,7 @@ A picture is proverbially worth a thousand words, and a chart is often better th
 
 1. Re-run the code cell and view the results. The figure determines the shape and size of the plot.
 
-    A figure can contain multiple subplots, each on its own *axis*.
+   >**Note**: A figure can contain multiple subplots, each on its own *axis*.
 
 1. Modify the code to plot the chart as follows:
 
@@ -384,7 +401,7 @@ A picture is proverbially worth a thousand words, and a chart is often better th
 
 1. Re-run the code cell and view the results. The figure contains the subplots specified in the code.
 
->**Note**: To learn more about plotting with matplotlib, see the [matplotlib documentation](https://matplotlib.org/).
+   >**Note**: To learn more about plotting with matplotlib, see the [matplotlib documentation](https://matplotlib.org/).
 
 ### Task 3: Use the **seaborn** library
 
@@ -440,4 +457,3 @@ While **matplotlib** enables you to create complex charts of multiple types, it 
 
 **You have successfully completed the lab**
 
-**End of the Lab**
