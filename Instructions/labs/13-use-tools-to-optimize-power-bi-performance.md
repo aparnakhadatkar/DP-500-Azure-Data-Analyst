@@ -11,13 +11,13 @@ After completing this lab, you will be able to:
 - Use Best Practice Analyzer (BPA)
 - Use DAX Studio
 
+## Estimated timing: 30 minutes
+
 ## Architecture Diagram
 
 ![](../images/lab13-archyy.png)
 
 ## Excercise 1: Use Best Practice Analyzer
-
-## Estimated timing: 30 minutes
 
 In this exercise, You will review the BPA rules, and then address specific issues found in the data model.
 
