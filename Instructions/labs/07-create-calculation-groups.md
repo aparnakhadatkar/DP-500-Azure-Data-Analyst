@@ -85,7 +85,7 @@ In this task, you will review the data model to understand how calculation group
     >**Note**: The sigma symbol indicates that the fields will automatically summarize by using aggregation functions like sum, count, average, or others.
 
     >**Note**: However, when calculation groups are added to a model, this automatic
-    behavior must be disabled. That means that summarization can only be
+    behaviour must be disabled. That means that summarization can only be
     achieved by measures, which are defined by using Data Analysis Expressions
     (DAX) formulas. In the next task, you will add measures to the model.
 
