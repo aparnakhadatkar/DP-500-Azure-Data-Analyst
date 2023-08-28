@@ -12,13 +12,13 @@ After completing this lab, you will be able to:
 - Develop model queries.
 - Organize the model diagram.
 
+## Estimated timing: 30 minutes
+
 ## Architecture Diagram
 
 ![](../images/lab4-archy.png)
 
 ## Exercise 1: Set up Power BI
-
-## Estimated timing: 30 minutes
 
 ### Task 1: In this task, you will set up Power BI.
 
@@ -608,6 +608,4 @@ In this task, you will stop the SQL pool.
 
 1. Pause the SQL pool.
 
-**You have successfully completed the lab**
-
-**End of the lab**
+## You have successfully completed the lab
