@@ -477,4 +477,10 @@ Now that you've explored various ways to query files in the data lake by using S
    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
+### Review
+In this lab, you have completed:
+- Query different file formats using SQL
+- Create an external data source
+- Visualize the query results in chart
+
 ## You have successfully completed the lab
