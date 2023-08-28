@@ -12,13 +12,13 @@ After completing this lab, you will be able to:
 - Set dual storage mode
 - Use Performance analyzer to review refresh activities
 
+## Estimated timing: 30 minutes
+
 ## Architecture Diagram
 
 ![](../images/lab11-archy.png)
  
 ## Exercise 1: Set up Power BI Desktop
-
-## Estimated timing: 30 minutes
 
 ### Task 1: Set up Power BI Desktop
 
@@ -231,6 +231,4 @@ In this task, you will finish up.
    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
    
-**You have successfully completed the lab**
-
-**End of the lab**
+## You have successfully completed the lab
