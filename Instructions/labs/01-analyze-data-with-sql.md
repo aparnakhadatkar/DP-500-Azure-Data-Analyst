@@ -226,7 +226,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
 
 1. Name your script **Sales Parquet query** by clicking the Properties tab icon, and publish it. Then close the script pane.
 
-     ![Screenshot showing the steps](../images/DP500-1-27.png)
+     ![Screenshot showing the steps](../images/DP500-1-27(1).png)
 
 ### Task 4: Use SQL to query JSON files
 
@@ -240,7 +240,7 @@ JSON is another popular data format, so it's useful to be able to query .json fi
    
 1. In the **File type** list, select **Text format**, and then apply the settings to open a new SQL script that queries the data in the folder.
 
-    ![Screenshot showing the steps](../images/DP500-1-29.png)
+    ![Screenshot showing the steps](../images/DP500-1-29(1).png)
     
 1.  The script should look similar to this:
 
