@@ -1,6 +1,6 @@
 # Lab15 - Create a paginated report
 
-## Overview
+## Lab scenario
 
 In this lab, you will use Power BI Report Builder to develop a pixel-perfect paginated report layout that sources data from the **AdventureWorksDW2022-DP500** SQL Server database. You will then create a data source and dataset, and also configure a report parameter. The report layout will allow data to render over multiple pages and to be exported in PDF and other formats.
 
@@ -8,23 +8,26 @@ The final report will look like the following:
 
 ![](../images1/dp500_15-01.png)
 
-In this lab, you learn how to:
+## Lab objectives
+  
+After completing this lab, you will be able to:
 
 - Use Power BI Report Builder
-
 - Design a multi-page report layout
-
 - Define a data source
-
 - Define a dataset
-
 - Create a report parameter
-
 - Export a report to PDF
 
-## Get started
+## Architecture Diagram
+
+![](media/lab15-archy.png)
+
+## Exercise 1: Get started
 
 In this exercise, you will open Power BI Report Builder to create and then save a report.
+
+## Estimated timing: 45 minutes
 
 ### Task 1: Create the report
 
@@ -650,19 +653,18 @@ In this task, you will view the report in print layout mode.
 
 3. On the **Run** ribbon tab, from inside the **Print** group, select **Print Layout**.
 
-	![](../images1/dp500_15-71.png)
+   ![](../images1/dp500_15-71.png)
 
-	>**Note** Print layout mode provides a preview of what the report will look like when printed to the strict page size.
+   >**Note** Print layout mode provides a preview of what the report will look like when printed to the strict page size.
 
 4. Navigate to pages 2 and 3.
 
-	>**Note** In this lab, you won't publish the report. Note that paginated reports can only be rendered in the Power BI service when they are stored in a workspace that has its license mode set to **Premium per user** or **Premium per capacity**, and when that capacity has the paginated reports workload enabled.
+   >**Note** In this lab, you won't publish the report. Note that paginated reports can only be rendered in the Power BI service when they are stored in a workspace that has its license mode set to **Premium per user** or **Premium per capacity**, and when that capacity has the paginated reports workload enabled.
 
-5. **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-
-   - Click the **(...) icon** located at the upper right corner of the lab guide section and navigate to the **Lab Validation** Page.
-   - Hit the **Validate** button for the corresponding task.
-   - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at [labs-support@spektrasystems.com](labs-support@spektrasystems.com).We are available 24/7 to help you out.
-
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   
 **You have successfully completed the lab**
