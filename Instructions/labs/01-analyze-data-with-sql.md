@@ -256,7 +256,7 @@ JSON is another popular data format, so it's useful to be able to query .json fi
         ) AS [result]
     ```
     
-    ![Screenshot showing the steps](../images/DP500-1-30.png)
+    ![Screenshot showing the steps](../images/DP500-1-(30).png)
     
     The script is designed to query comma-delimited (CSV) data rather than JSON, so you need to make a few modifications before it will work successfully.
 
@@ -301,7 +301,7 @@ JSON is another popular data format, so it's useful to be able to query .json fi
 
 1. Name your script **Sales JSON query** by clicking the properties tab icon, and publish it. Then close the script pane.
 
-   ![Screenshot showing the steps](../images/DP500-1-33.png)
+   ![Screenshot showing the steps](../images/DP500-1-(33).png)
 
 ## Access external data in a database
 
@@ -337,7 +337,7 @@ By defining an external data source in a database, you can use it to reference t
    
 1. Ensure that the script is connected to the **Built-in** SQL pool and the **master** database, and then run it.
 
-   ![Screenshot showing the steps](../images/DP500-1-36.png)
+   ![Screenshot showing the steps](../images/DP500-1-(36).png)
 
 1. Switch back to the **Data** page and use the **&#8635;** button at the top right of Synapse Studio to refresh the page. Then view the **Workspace** tab in the **Data** pane, where a **SQL database** list is now displayed. Expand this list to verify that the **Sales** database has been created.
 
