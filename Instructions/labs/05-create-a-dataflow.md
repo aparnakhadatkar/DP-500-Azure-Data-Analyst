@@ -458,4 +458,9 @@ In this task, you will stop the SQL pool.
 
 1. Pause the SQL pool.
 
+### Review
+In this lab, you have completed:
+- Use Power Query Online to develop a dataflow
+- Use Power BI Desktop to consume a dataflow
+
 ## You have successfully completed the lab
