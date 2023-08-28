@@ -14,7 +14,7 @@ After completing this lab, you will be able to:
   
 ## Architecture Diagram
 
- ![](media/lab12-archy.png)
+![](../images/lab12-archy.png)
 
 ## Exercise 1: Create and review the Report in PowerBI Desktop
 
