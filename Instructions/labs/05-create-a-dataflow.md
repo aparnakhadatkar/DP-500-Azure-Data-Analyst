@@ -37,7 +37,7 @@ In this task, you will start the SQL pool.
 
 1. Resume the dedicated SQL pool.
 
-   ![](../images/resume-sql-pool.png)
+   ![](../images/resume-sql-pool1.png)
 
    >**Note** Important: The SQL pool is a costly resource. Please limit the use of this resource when working on this lab. The final task in this lab will instruct you to pause the resource.
 
@@ -442,7 +442,7 @@ In this task, you will test the model by creating a simple report layout.
 
 1. Review the updated bar chart visual that now sorts chronologically.
 
-   >**Note** The main benefit of using date offset columns is that reports can filter by relative dates in a customized way. (Slicers and filters and also filter by relative date and time periods, but this behavior cannot be customized. They also don't allow filtering by quarters.)
+   >**Note** The main benefit of using date offset columns is that reports can filter by relative dates in a customized way. (Slicers and filters and also filter by relative date and time periods, but this behaviour cannot be customized. They also don't allow filtering by quarters.)
 
 1. Save the Power BI Desktop file.
 
