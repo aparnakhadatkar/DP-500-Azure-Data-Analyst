@@ -13,12 +13,12 @@ After completing this lab, you will be able to:
 - Query the data warehouse tables
 - Create SQL queries
 
+## Estimated timing: 45 minutes
+
 ## Architecture Diagram
 
  ![](../images/lab3-archy.png)
  
-## Estimated timing: 45 minutes
-
 ## Provision an Azure Synapse Analytics workspace
 
 You'll need an Azure Synapse Analytics workspace with access to data lake storage and an Apache Spark pool that you can use to query and process files in the data lake.
@@ -329,6 +329,4 @@ When exploring very large volumes of data, queries can take significant time and
 
 1. When you're done, on the **Manage** page, pause the **sqldb<inject key="DeploymentID" enableCopy="false"/>** dedicated SQL pool.
 
-**You have successfully completed the lab**
-
-**End of the lab**
+## You have successfully completed the lab
