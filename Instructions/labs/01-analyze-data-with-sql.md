@@ -53,7 +53,7 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
 
 1. Select the **files** container, and note that it contains a folder named **sales**. This folder contains the data files you are going to query.
 
-   ![Screenshot showing the Linked storage account with synapse ](../images/DP500-1-6.png)
+   ![Screenshot showing the Linked storage account with synapse ](../images/DP500-1-61.png)
    
 1. Open the **sales** folder, you can see the three sub folders titled **csv**, **json**, and **parquet** folders.
 
@@ -67,7 +67,7 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
 
    ![Screenshot showing the PREVIEW selection ](../images/DP500-1-9.png)
    
-   ![Screenshot showing the closing of PREVIEW selection ](../images/DP500-1-10.png)
+   ![Screenshot showing the closing of PREVIEW selection ](../images/DP500-1-101.png)
    
 1. Close the preview by clicking on **OK**, and then use the **&#8593;** button to navigate back to the **sales** folder.
 
@@ -87,7 +87,7 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
    
 1. In the **File type** list, select **Text format**, and then apply the settings to open a new SQL script that queries the data in the folder.
 
-   ![Screenshot showing the steps ](../images/DP500-1-12.png)
+   ![Screenshot showing the steps ](../images/DP500-1-121.png)
    
 1. In the **Properties** pane for **SQL Script 1** that is created, change the name to **Sales CSV query**, and change the result settings to show **All rows**. Then in the toolbar, select **Publish** to save the script and use the **Properties** button (which looks similar to **&#128463;.**) on the right end of the toolbar to hide the **Properties** pane.
 
@@ -111,7 +111,7 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
 
 1. In the **Connect to** list, ensure **Built-in** is selected - this represents the built-in SQL Pool that was created with your workspace.
 
-   ![Screenshot showing the steps](../images/DP500-1-14.png)
+   ![Screenshot showing the steps](../images/DP500-1-141.png)
    
 1. On the toolbar, use the **&#9655; Run** button to run the SQL code, and review the results, which should look similar to this:
 
@@ -149,7 +149,7 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
 
 8. Publish the changes to your script, and then close the script pane.
     
-    ![Screenshot showing the steps](../images/DP500-1-18.png)
+    ![Screenshot showing the steps](../images/DP500-1-181.png)
 
 ### Task 3: Use SQL to query parquet files
 
@@ -163,7 +163,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
    
 1. In the **File type** list, select **Parquet format**, and then apply the settings to open a new SQL script that queries the data in the folder.
 
-   ![Screenshot showing the steps](../images/DP500-1-20.png)
+   ![Screenshot showing the steps](../images/DP500-1-201.png)
    
 1. The script should look similar to this:
 
