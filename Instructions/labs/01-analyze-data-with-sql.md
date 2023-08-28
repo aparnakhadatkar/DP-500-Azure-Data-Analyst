@@ -2,13 +2,27 @@
 
 SQL is probably the most used language for working with data in the world. Most data analysts are proficient in using SQL queries to retrieve, filter, and aggregate data - most commonly in relational databases. As organizations increasingly take advantage of scalable file storage to create data lakes, SQL is often still the preferred choice for querying the data. Azure Synapse Analytics provides serverless SQL pools that enable you to decouple the SQL query engine from the data storage and run queries against data files in common file formats such as delimited text and Parquet.
 
-## Estimated timing: 10 minutes
+## Lab scenario
 
-This lab will take approximately **40** minutes to complete.
+In this lab, you will querying files using a serverless SQL pool allows executing SQL queries directly on data stored in files, without the need for managing or provisioning dedicated infrastructure. It provides on-demand scalability and efficient data processing capabilities for analyzing and retrieving insights from file-based data sources.
 
-## Query data in files
+## Lab objectives
+  
+After completing this lab, you will be able to:
+
+- Query different file formats using SQL
+- Create an external data source
+- Visualize the query results in chart
+  
+## Architecture Diagram
+
+ ![](.../media/lab1-archy.png)
+
+# Exercise 1: Query data in files. 
 
 This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage account to host the data lake, and also uploaded some data files to the data lake to perform the below tasks.
+
+## Estimated timing: 40 minutes
 
 ### Task-1: View files in the data lake
 
@@ -456,11 +470,11 @@ Now that you've explored various ways to query files in the data lake by using S
 
 1. Experiment with the charting functionality in the query editor. It offers some basic charting capabilities that you can use while interactively exploring data, and you can save charts as images to include in reports. However, functionality is limited compared to enterprise data visualization tools such as Microsoft Power BI.
 
-1. > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 **You have successfully completed the lab**
 
