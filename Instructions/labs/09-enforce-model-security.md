@@ -12,13 +12,13 @@ After completing this lab, you will be able to:
 - Validate roles
 - Map security principals to dataset roles
 
+## Estimated timing: 35 minutes
+
 ## Architecture Diagram
 
 ![](../images/lab9-archy.png)
 
 ## Exercise 0: set up the prerequisites
-
-## Estimated timing: 35 minutes
 
 ### Task 1: Set up Power BI Desktop
 
@@ -504,7 +504,4 @@ In this task, you will finalize the design by publishing the report and mapping 
    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
    
-**You have successfully completed the lab**
-
-**End of the lab**
-
+## You have successfully completed the lab
