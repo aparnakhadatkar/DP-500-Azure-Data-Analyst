@@ -1,22 +1,27 @@
 # Lab7 - Create calculation groups
 
-## Overview
+## Lab scenario
 
-The estimated time to complete the lab is 45 minutes
+In this lab, you will use Power BI Desktop and Tabular Editor 2 to create calculation groups
 
-In this lab, you will use Power BI Desktop and Tabular Editor 2 to create
-calculation groups.
+## Lab objectives
 
-In this lab, you learn how to:
+After completing this lab, you will be able to:
 
--   Create calculation groups.
--   Format calculation items.
--   Set calculation group precedence.
--   Configure visuals to use calculation groups.
+- Create calculation groups
+- Format calculation items
+- Set calculation group precedence
+- Configure visuals to use calculation groups
+  
+## Architecture Diagram
 
+ ![](../images/lab7-archy.png)
+ 
 #### Note: In this lab session, PowerBI Desktop and Tabular Editor have already been installed for the ease of execution.
 
 ## Exercise 1: Set up Power BI Desktop
+
+## Estimated timing: 45 minutes
 
 ### Task 1: Set up Power BI Desktop
 
@@ -80,7 +85,7 @@ In this task, you will review the data model to understand how calculation group
     >**Note**: The sigma symbol indicates that the fields will automatically summarize by using aggregation functions like sum, count, average, or others.
 
     >**Note**: However, when calculation groups are added to a model, this automatic
-    behavior must be disabled. That means that summarization can only be
+    behaviour must be disabled. That means that summarization can only be
     achieved by measures, which are defined by using Data Analysis Expressions
     (DAX) formulas. In the next task, you will add measures to the model.
 
@@ -147,10 +152,10 @@ Now you'll create two calculation groups. The first will support time intelligen
 
 Use Tabular Editor to create the **Time Intelligence** calculation group. It will simplify the creation of many time-related calculations, including PY (prior year), YoY (year-over-year), and YoY % (year-over-year percentage). The calculation group will allow analyzing any measure by using different Time Intelligence calculations.
 
-   >**Note**: Power BI Desktop does not support the creation or management of calculation
+>**Note**: Power BI Desktop does not support the creation or management of calculation
 groups.
 
-   > **Tip**: All syntax is available to copy and paste from the C:\LabFiles\DP-500-Azure-Data-Analyst\Allfiles\07\Assets\Snippets.txt
+> **Tip**: All syntax is available to copy and paste from the C:\LabFiles\DP-500-Azure-Data-Analyst\Allfiles\07\Assets\Snippets.txt
 
 1.  On the **External Tools** ribbon, select **Tabular Editor**.
 
@@ -266,7 +271,7 @@ groups.
 1. In the **Expression Editor** pane toolbar, select the first button to accept
     changes.
     
-    >**Note**: The year-over-year percentage (YoY %) formula calculates the percentage
+   >**Note**: The year-over-year percentage (YoY %) formula calculates the percentage
     change of the selected measure over the prior year.
 
 1. In the **Properties** pane (located at the bottom-right), set the **Format String Expression** property
@@ -499,12 +504,12 @@ In this task, you'll finish up.
     ![](../images/dp500_07-42.png)
     
 2.  Close Power BI Desktop.
-
-    **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+ 
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. 
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
    
 3.  Close Tabular Editor.
 

@@ -1,22 +1,28 @@
 # Lab6 - Work with model relationships
 
-## Overview
+## Lab scenario
 
-In this lab, you will work with model relationships specifically to address the need for role-playing dimensions. It will involve working with active and inactive relationships, and also Data Analysis Expressions (DAX) functions that modify relationship behavior.
+In this lab, you will work with model relationships specifically to address the need for role-playing dimensions. It will involve working with active and inactive relationships, and also Data Analysis Expressions (DAX) functions that modify relationship behaviour.
 
-In this lab, you learn how to:
+## Lab objectives
 
-- Interpret relationship properties in the model diagram.
+After completing this lab, you will be able to:
 
-- Set relationship properties.
+- Interpret relationship properties in the model diagram
+- Set relationship properties
+- Use DAX functions that modify relationship behaviour
 
-- Use DAX functions that modify relationship behavior.
+## Architecture Diagram
 
-## Excercise-1: Explore model relationships
+![](../images/lab6-archy.png)
 
-In this exercise, you will open a pre-developed Power BI Desktop solution to learn about the data model. You will then explore the behavior of active model relationships.
+## Estimated timing: 45 minutes
 
-### Task-1: Set up Power BI Desktop
+## Exercise 1: Explore model relationships
+
+In this exercise, you will open a pre-developed Power BI Desktop solution to learn about the data model. You will then explore the behaviour of active model relationships.
+
+### Task 1: Set up Power BI Desktop
 
 In this task, you will open a pre-developed Power BI Desktop solution.
 
@@ -34,7 +40,7 @@ In this task, you will open a pre-developed Power BI Desktop solution.
 
 6. Select **Save**.
 
-### Task-2: Review the data model
+### Task 2: Review the data model
 
 In this task, you will review the data model.
 
@@ -64,7 +70,7 @@ In this task, you will review the data model.
 
    >**Note** In this lab, you will learn how to design a model to support role playing dimensions.*
 
-### Task-3: Visualize date data
+### Task 3: Visualize date data
 
 In this task, you will visualize sales data by date and switch the active status of relationships.
 
@@ -112,7 +118,7 @@ In this task, you will visualize sales data by date and switch the active status
 
    ![](../images/dp500-6-17.png)
 
-### Task-4: Modify relationship active status
+### Task 4: Modify relationship active status
 
 In this task, you will modify the active status of two relationships.
 
@@ -160,11 +166,11 @@ In this task, you will modify the active status of two relationships.
 
    >**Note** In the next exercise, you will learn how to make a relationship active in a DAX formula.
 
-## Excercise-2: Use inactive relationships
+## Exercise 2: Use inactive relationships
 
 In this exercise, you will learn how to make a relationship active in a DAX formula.
 
-### Task-1: Use inactive relationships
+### Task 1: Use inactive relationships
 
 In this task, you will use the USERELATIONSHIP function to make an inactive relationship active.
 
@@ -207,11 +213,11 @@ In this task, you will use the USERELATIONSHIP function to make an inactive rela
 
    ![](../images/dp500-6-26.png)
 
-## Excercise-3: Add another Date table
+## Exercise 3: Add another Date table
 
 In this exercise, you will add a date table to support ship date analysis.
 
-### Task-1: Remove the inactive relationships
+### Task 1: Remove the inactive relationships
 
 In this task, you will remove the existing relationship to the **ShipDateKey** column.
 
@@ -229,7 +235,7 @@ In this task, you will remove the existing relationship to the **ShipDateKey** c
 
    >**Note** Deleting the relationship results in an error with the **Sales Shipped** measure. You will rewrite the measure formula later in this lab.
 
-### Task-2: Disable relationship options
+### Task 2: Disable relationship options
 
 In this task, you will disable two relationship options.
 
@@ -251,7 +257,7 @@ In this task, you will disable two relationship options.
 
    ![](../images/dp500-6-2.png)
 
-### Task-3: Add another date table
+### Task 3: Add another date table
 
 In this task, you will create a query to add another date table to the model.
 
@@ -303,7 +309,7 @@ In this task, you will create a query to add another date table to the model.
 
 9. Notice that an active relationship now exists between the **Ship Date** and **Sales** tables.
 
-### Task-4: Visualize ship date data
+### Task 4: Visualize ship date data
 
 In this task, you will visualize the ship date data in a new table visual.
 
@@ -345,13 +351,13 @@ In this task, you will visualize the ship date data in a new table visual.
 
    >**Note** Lastly, it’s not possible to achieve a combination of filters in the one visual. For example, it’s not possible to combine sales ordered and sales shipped in the same visual without creating a measure. You will create that measure in the next exercise.
 
-## Excercise-4: Explore other relationship functions
+## Exercise 4: Explore other relationship functions
 
 In this exercise, you will work with other DAX relationship functions.
 
-### Task-1: Explore other relationship functions
+### Task 1: Explore other relationship functions
 
-In this task, you will work with the CROSSFILTER and TREATAS functions to modify relationship behavior during calculations.
+In this task, you will work with the CROSSFILTER and TREATAS functions to modify relationship behaviour during calculations.
 
 1. In the **Data** pane, from inside the **Sales** table, select the **Sales Shipped** measure.
 
@@ -371,7 +377,7 @@ In this task, you will work with the CROSSFILTER and TREATAS functions to modify
 	)
 	```
 
-   >**Note** This formula uses the CALCULATE function to sum the **Sales Amount** column by using modified relationship behaviors. The CROSSFILTER function disables the active relationship to the **OrderDateKey** column (this function can also modify filter direction). The TREATAS function creates a virtual relationship by applying the in-context **DateKey** values to the **ShipDateKey** column.
+   >**Note** This formula uses the CALCULATE function to sum the **Sales Amount** column by using modified relationship behaviour. The CROSSFILTER function disables the active relationship to the **OrderDateKey** column (this function can also modify filter direction). The TREATAS function creates a virtual relationship by applying the in-context **DateKey** values to the **ShipDateKey** column.
 
 3. Add the revised **Sales Shipped** measure to the first table visual.
 
@@ -385,7 +391,7 @@ In this task, you will work with the CROSSFILTER and TREATAS functions to modify
 
    >**Note** Because there are no BLANKs in the **OrderDateKey** column, a BLANK group wasn’t generated. Showing unshipped sales will require a different approach.
 
-### Task-2: Show unshipped sales
+### Task 2: Show unshipped sales
 
 In this task, you will create a measure to show the unshipped sales amount.
 
@@ -416,7 +422,7 @@ In this task, you will create a measure to show the unshipped sales amount.
 
    ![](../images/dp500-6-48.png)
 	
-### Task-3: Finish up
+### Task 3: Finish up
 
 In this task, you will finish up.
 
@@ -426,10 +432,10 @@ In this task, you will finish up.
 	
 2. Close Power BI Desktop.
 
-    **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
  
 **You have successfully completed the lab** 

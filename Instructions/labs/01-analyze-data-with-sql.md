@@ -2,14 +2,29 @@
 
 SQL is probably the most used language for working with data in the world. Most data analysts are proficient in using SQL queries to retrieve, filter, and aggregate data - most commonly in relational databases. As organizations increasingly take advantage of scalable file storage to create data lakes, SQL is often still the preferred choice for querying the data. Azure Synapse Analytics provides serverless SQL pools that enable you to decouple the SQL query engine from the data storage and run queries against data files in common file formats such as delimited text and Parquet.
 
-This lab will take approximately **40** minutes to complete.
+## Lab scenario
 
+In this lab, you will be querying files using a serverless SQL pool allows executing SQL queries directly on data stored in files, without the need for managing or provisioning dedicated infrastructure. It provides on-demand scalability and efficient data processing capabilities for analyzing and retrieving insights from file-based data sources.
 
-## Query data in files
+## Lab objectives
+  
+After completing this lab, you will be able to:
+
+- Query different file formats using SQL
+- Create an external data source
+- Visualize the query results in chart
+  
+## Architecture Diagram
+
+ ![](../images/lab1-archy.png)
+
+## Exercise 1: Query data in files. 
 
 This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage account to host the data lake, and also uploaded some data files to the data lake to perform the below tasks.
 
-### Task-1: View files in the data lake
+## Estimated timing: 40 minutes
+
+### Task 1: View files in the data lake
 
 1. In the Azure portal, Click on Show Portal Menu and select **Resource groups**.
 
@@ -39,7 +54,7 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
 
    ![Screenshot showing the Linked storage account with synapse ](../images/DP500-1-6.png)
    
-1. Open the **sales** folder,you can see the three sub folders titled **csv**, **json**, and **parquet** folders.
+1. Open the **sales** folder, you can see the three sub folders titled **csv**, **json**, and **parquet** folders.
 
    ![Screenshot showing the subfolders in the sales folder ](../images/DP500-1-7.png)
    
@@ -63,7 +78,7 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
 
 1. Return to the **sales** folder so you can see the **csv**, **json**, and **parquet** folders.
 
-### Task-2: Use SQL to query CSV files
+### Task 2: Use SQL to query CSV files
 
 1. Select the **csv** folder, and then in the **New SQL script** list on the toolbar, select **Select TOP 100 rows**.
 
@@ -135,11 +150,11 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
     
     ![Screenshot showing the steps](../images/DP500-1-18.png)
 
-### Task-3: Use SQL to query parquet files
+### Task 3: Use SQL to query parquet files
 
 While CSV is an easy format to use, it's common in big data processing scenarios to use file formats that are optimized for compression, indexing, and partitioning. One of the most common of these formats is *parquet*.
 
-1. In the **files** tab contaning the file system for your data lake, return to the **sales** folder so you can see the **csv**, **json**, and **parquet** folders.
+1. In the **files** tab containing the file system for your data lake, return to the **sales** folder so you can see the **csv**, **json**, and **parquet** folders.
 
 1. Select the **parquet** folder, and then in the **New SQL script** list on the toolbar, select **Select TOP 100 rows**.
 
@@ -163,7 +178,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
     ```
     ![Screenshot showing the steps](../images/DP500-1-21.png)
     
-1. Run the code, and note that it returns sales order data in the same schema as the CSV files you explored earlier. The schema information is embedded in the parquet file, so the appropriate column names are shown in the results.
+1. Run the code and note that it returns sales order data in the same schema as the CSV files you explored earlier. The schema information is embedded in the parquet file, so the appropriate column names are shown in the results.
 
     ![Screenshot showing the steps](../images/DP500-1-22.png)
     
@@ -204,7 +219,7 @@ While CSV is an easy format to use, it's common in big data processing scenarios
     ```
     ![Screenshot showing the steps](../images/DP500-1-25.png)
     
-1. Review the results and note that they include only the sales counts for 2019 and 2020. This filtering is achieved by inclusing a wildcard for the partition folder value in the BULK path (*year=\**) and a WHERE clause based on the *filepath* property of the results returned by OPENROWSET (which in this case has the alias *[result]*).
+1. Review the results and note that they include only the sales counts for 2019 and 2020. This filtering is achieved by including a wildcard for the partition folder value in the BULK path (*year=\**) and a WHERE clause based on the *filepath* property of the results returned by OPENROWSET (which in this case has the alias *[result]*).
 
     ![Screenshot showing the steps](../images/DP500-1-26.png)
 
@@ -212,9 +227,9 @@ While CSV is an easy format to use, it's common in big data processing scenarios
 
      ![Screenshot showing the steps](../images/DP500-1-27.png)
 
-### Task-4: Use SQL to query JSON files
+### Task 4: Use SQL to query JSON files
 
-JSON is another popular data format, so it;s useful to be able to query .json files in a serverless SQL pool.
+JSON is another popular data format, so it's useful to be able to query .json files in a serverless SQL pool.
 
 1. In the **files** tab containing the file system for your data lake, return to the **sales** folder so you can see the **csv**, **json**, and **parquet** folders.
 
@@ -242,7 +257,7 @@ JSON is another popular data format, so it;s useful to be able to query .json fi
     
     ![Screenshot showing the steps](../images/DP500-1-30.png)
     
-    The script is designed to query comma-delimited (CSV) data rather then JSON, so you need to make a few modifications before it will work successfully.
+    The script is designed to query comma-delimited (CSV) data rather than JSON, so you need to make a few modifications before it will work successfully.
 
 1. Modify the script as follows (replacing *datalakexxxxxxx* with the name of your data lake storage account as **datalake<inject key="DeploymentID" enableCopy="false"/>**) to:
     - Remove the parser version parameter.
@@ -291,7 +306,7 @@ JSON is another popular data format, so it;s useful to be able to query .json fi
 
 So far, you've used the OPENROWSET function in a SELECT query to retrieve data from files in a data lake. The queries have been run in the context of the **master** database in your serverless SQL pool. This approach is fine for an initial exploration of the data, but if you plan to create more complex queries it may be more effective to use the *PolyBase* capability of Synapse SQL to create objects in a database that reference the external data location.
 
-### Task-5: Create an external data source
+### Task 5: Create an external data source
 
 By defining an external data source in a database, you can use it to reference the data lake location where the files are stored.
 
@@ -370,7 +385,7 @@ By defining an external data source in a database, you can use it to reference t
     ```
    ![Screenshot showing the steps](../images/DP500-1-42.png)
    
-### Task-6: Create an external table
+### Task 6: Create an external table
 
 The external data source makes it easier to access the files in the data lake, but most data analysts using SQL are used to working with tables in a database. Fortunately, you can also define external file formats and external tables that encapsulate rowsets from files in database tables.
 
@@ -421,7 +436,7 @@ The external data source makes it easier to access the files in the data lake, b
    
 6. Run the SELECT script that has been generated, and verify that it retrieves the first 100 rows of data from the table, which in turn references the files in the data lake.
 
-### Task-7: Visualize query results
+### Task 7: Visualize query results
 
 Now that you've explored various ways to query files in the data lake by using SQL queries, you can analyze the results of these queries to gain insights into the data. Often, insights are easier to uncover by visualizing the query results in a chart; which you can easily do by using the integrated charting functionality in the Synapse Studio query editor.
 
@@ -455,11 +470,11 @@ Now that you've explored various ways to query files in the data lake by using S
 
 1. Experiment with the charting functionality in the query editor. It offers some basic charting capabilities that you can use while interactively exploring data, and you can save charts as images to include in reports. However, functionality is limited compared to enterprise data visualization tools such as Microsoft Power BI.
 
-1. > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 **You have successfully completed the lab**
 
