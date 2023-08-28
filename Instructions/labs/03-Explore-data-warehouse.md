@@ -27,7 +27,7 @@ You'll need an Azure Synapse Analytics workspace with access to data lake storag
 
 Have a time to review the [Apache Spark in Azure Synapse Analytics](https://docs.microsoft.com/azure/synapse-analytics/spark/apache-spark-overview) article in the Azure Synapse Analytics documentation.
 
-## Excercise 1: Explore the data warehouse schema
+## Exercise 1: Explore the data warehouse schema
 
 In this lab, the data warehouse is hosted in a dedicated SQL pool in Azure Synapse Analytics.
 
@@ -45,13 +45,13 @@ In this lab, the data warehouse is hosted in a dedicated SQL pool in Azure Synap
 
    ![](../images1/mod3-ex1-task1-step3.png)
    
-1. Now, serach for **synapse** and select the synapse workspace named **workspace<inject key="Deployment ID" enableCopy="false" />**.
+1. Now, search for **synapse** and select the synapse workspace named **workspace<inject key="Deployment ID" enableCopy="false" />**.
 
    ![](../images1/mod3-ex1-task1-step4.png)
 
 1. In the **Overview** page for your Synapse workspace, in the **Open Synapse Studio** card, select **Open** to open Synapse Studio in a new browser tab. 
 
-   >**Note**: Signin in if prompted.
+   >**Note**: Sign-in in if prompted.
 
     ![](../images1/mod3-ex1-task1-step5.png)
 
@@ -93,9 +93,9 @@ In this lab, the data warehouse is hosted in a dedicated SQL pool in Azure Synap
 
    >**Note**: Time dimensions in a data warehouse are usually implemented as a dimension table containing a row for each of the smallest temporal units of granularity (often called the *grain* of the dimension) by which you want to aggregate the measures in the fact tables. In this case, the lowest grain at which measures can be aggregated is an individual date, and the table contains a row for each date from the first to the last date referenced in the data. The attributes in the **DimDate** table enable analysts to aggregate measures based on any date key in the fact table, using a consistent set of temporal attributes (for example, viewing orders by month based on the order date). The **FactInternetSales** table contains three keys that relate to the **DimDate** table: **OrderDateKey**, **DueDateKey**, and **ShipDateKey**.
 
-## Excercise 2: Query the data warehouse tables
+## Exercise 2: Query the data warehouse tables
 
-Now that you have explored some of the more important aspects of the data warehouse schema, you're ready to to query the tables and retrieve some data.
+Now that you have explored some of the more important aspects of the data warehouse schema, you're ready to query the tables and retrieve some data.
 
 ### Task 1: Query fact and dimension tables
 
@@ -306,11 +306,11 @@ When exploring very large volumes of data, queries can take significant time and
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
-## Excercise 3: Challenge - Analyze reseller sales
+## Exercise 3: Challenge - Analyze reseller sales
 
 ### Task 1: Create SQL queries
 
