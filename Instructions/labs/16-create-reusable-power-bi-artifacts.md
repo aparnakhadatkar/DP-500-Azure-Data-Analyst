@@ -1,22 +1,30 @@
 # Lab16 - Create reusable Power BI assets
 
-## Overview
+## Lab scenario
 
 In this lab, you will create a specialized Power BI dataset that extends a core dataset. The specialized dataset will enable the analysis of US sales per capita.
 
-In this lab, you learn how to:
+## Lab objectives
+
+After completing this lab, you will be able to:
 
 - Create a live connection.
-
 - Create a local DirectQuery model.
-
 - Use lineage view to discover dependent Power BI assets.
 
-## Excercise-1: Publishing Data Model in Power BI
- 
+## Architecture Diagram
+
+![](media/lab16-archy.png)
+
+## Estimated timing: 45 minutes
+
+## Exercise 1: Publishing Data Model in Power BI
+
+## Estimated timing: 45 minutes
+
 In this exercise, you will Publish a data Module in Power BI.
 
-### Task-1: Set up Power BI
+### Task 1: Set up Power BI
 
 In this task, you will set up Power BI.
 
@@ -42,8 +50,7 @@ In this task, you will set up Power BI.
    * Password: <inject key="AzureAdUserPassword"></inject>
 
 	![](../images1/dp-up2.png)
-	
-	
+		
 1. You will be redirected to the Power BI sign-up page in Microsoft Edge. Select **Signin**.
 
 	![](../images1/dp-up3.png)
@@ -68,7 +75,7 @@ In this task, you will set up Power BI.
 
    >**Note**: The Power BI web browser experience is known as the **Power BI service**.
 
-### Task-2: Create a workspace in the Power BI Service
+### Task 2: Create a workspace in the Power BI Service
 
 In this task, you will create a workspace.
 
@@ -91,7 +98,7 @@ In this task, you will create a workspace.
    - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at [labs-support@spektrasystems.com](labs-support@spektrasystems.com).We are available 24/7 to help you out.
 
-### Task-3: Open the starter file in Power BI Desktop
+### Task 3: Open the starter file in Power BI Desktop
 
 1. To open File Explorer, on the taskbar, select the **File Explorer** shortcut.
 
@@ -107,7 +114,7 @@ In this task, you will create a workspace.
 
 	![](../images1/DP500-16-6new.png)
 
-### Task-4: Review the data model
+### Task 4: Review the data model
 
 In this task, you will review the data model.
 
@@ -121,7 +128,7 @@ In this task, you will review the data model.
 
 	>**Note**:The model comprises six dimension tables and one fact table. The **Sales** fact table stores sales order details. It's a classic star schema design.
 
-### Task-5: Publish the data model
+### Task 5: Publish the data model
 
 In this task, you will publish the data model.
 
@@ -145,11 +152,11 @@ In this task, you will publish the data model.
 
 	![](../images/DP500-16-19.png)
 
-## Excercise-2: Create a specialized dataset
+## Exercise 2: Create a specialized dataset
 
 In this exercise, you will create a specialized dataset to allow the analysis of US sales per capita. Because the core dataset doesn't contain population values, you will add a new table to extend the model.
 
-### Task-1 Create a live connection
+### Task 1 Create a live connection
 
 In this task, you will create a new report that uses a live connection to the **Sales Analysis - Create reusable Power BI artifacts** dataset, which you published in the previous exercise.
 
@@ -207,7 +214,7 @@ In this task, you will create a new report that uses a live connection to the **
 
 	![](../images1/dp9-18.png)
 
-### Task-2: Create a local DirectQuery model
+### Task 2: Create a local DirectQuery model
 
 In this task, you will create a local DirectQuery model.
 
@@ -234,7 +241,7 @@ In this task, you will create a local DirectQuery model.
 
 	![](../images/DP500-16-28.png)
 
-### Task-3: Design the report layout
+### Task 3: Design the report layout
 
 In this task, you will design the report layout to analyze US state sales.
 
@@ -276,7 +283,7 @@ In this task, you will design the report layout to analyze US state sales.
 
 	>**Note**: This report layout now provides basic detail about US state sales. However, an additional requirement is to show sales per capita and sort states by descending order of that measure.
 
-### Task-4: Add a table
+### Task 4: Add a table
 
 In this task, you will add a table of US population data sourced from a web page.
 
@@ -372,7 +379,7 @@ In this task, you will add a table of US population data sourced from a web page
 
 	>**Note**: The table doesn't need to be visible to report authors.
 
-### Task-5: Add a measure
+### Task 5: Add a measure
 
 In this task, you will add a measure to calculate sales per capita.
 
@@ -416,7 +423,7 @@ In this task, you will add a measure to calculate sales per capita.
 
 	![](../images/DP500-16-52.png)
 
-### Task-6: Publish the solution
+### Task 6: Publish the solution
 
 In this task, you will publish the solution, which comprises a specialized data model and a report.
 
@@ -442,7 +449,7 @@ In this task, you will publish the solution, which comprises a specialized data 
 
 	![](../images1/dp-40.png)
 
-### Task-7: Review the specialized dataset
+### Task 7: Review the specialized dataset
 
 In this task, you will review the specialized dataset in the Power BI service.
 
@@ -450,26 +457,25 @@ In this task, you will review the specialized dataset in the Power BI service.
 
 2. In the workspace landing page, notice the **US Sales Analysis** report and **US Sales Analysis** dataset.
 
-	![](../images/DP500-16-53.png)
+   ![](../images/DP500-16-53.png)
 
 
 3. Hover the cursor over the **US Sales Analysis** dataset, and when the ellipsis appears, select the ellipsis, and then select **View lineage**.
 
-	![](../images1/dp-42.png)
+   ![](../images1/dp-42.png)
 
-	>**Note**: The **View lineage** option supports finding out dependencies between Power BI assets. That's important, for example, if you are going to publish changes to a core dataset. Lineage view will tell you the dependent datasets that might require testing.
+   >**Note**: The **View lineage** option supports finding out dependencies between Power BI assets. That's important, for example, if you are going to publish changes to a core dataset. Lineage view will tell you the dependent datasets that might require testing.
 
 4. In the lineage view, notice the connection between the report, the **US Sales Analysis** dataset, and the **Sales Analysis - Create reusable Power BI artifacts** dataset.
 
-	![](../images/DP500-16-55.png)
+   ![](../images/DP500-16-55.png)
 
-	>**Note**: When Power BI datasets relate to other datasets, it's known as chaining. In this lab, the **US Sales Analysis** dataset is chained to the **Sales Analysis - Create reusable Power BI artifacts** dataset, enabling its reuse for a specialized purpose.
+   >**Note**: When Power BI datasets relate to other datasets, it's known as chaining. In this lab, the **US Sales Analysis** dataset is chained to the **Sales Analysis - Create reusable Power BI artifacts** dataset, enabling its reuse for a specialized purpose.
 
-   **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-
-   - Click the **(...) icon** located at the upper right corner of the lab guide section and navigate to the **Lab Validation** Page.
-   - Hit the **Validate** button for the corresponding task.
-   - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at [labs-support@spektrasystems.com](labs-support@spektrasystems.com).We are available 24/7 to help you out.
-
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   
 **You have successfully completed the lab**
