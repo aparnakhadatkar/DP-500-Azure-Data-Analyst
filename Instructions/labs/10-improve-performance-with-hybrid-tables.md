@@ -11,13 +11,13 @@ After completing this lab, you will be able to:
 - Set up incremental refresh
 - Review table partitions
 
+## Estimated timing: 45 minutes
+
 ## Architecture Diagram
 
 ![](../images/lab10-archy.png)
 
 ## Exercise 1: Set up the Azure SQL Database
-
-## Estimated timing: 45 minutes
 
 ### Task 1: Set up the Azure SQL Database
 
@@ -562,6 +562,4 @@ In this task, you will refresh the report.
    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 	
-**You have successfully completed the lab**
-
-**End of the lab**
+## You have successfully completed the lab
