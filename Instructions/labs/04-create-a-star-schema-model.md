@@ -17,7 +17,7 @@ After completing this lab, you will be able to:
 
 ## Exercise 1: Set up Power BI
 
-## Estimated timing: 40 minutes
+## Estimated timing: 30 minutes
 
 ### Task 1: In this task, you will set up Power BI.
 
