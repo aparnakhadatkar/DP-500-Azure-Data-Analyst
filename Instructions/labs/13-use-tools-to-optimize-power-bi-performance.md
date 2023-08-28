@@ -19,7 +19,7 @@ After completing this lab, you will be able to:
 
 ## Estimated timing: 30 minutes
 
-In this exercise,You will review the BPA rules, and then address specific issues found in the data model.
+In this exercise, You will review the BPA rules, and then address specific issues found in the data model.
 
 >**Note**: BPA is a free third-party tool that notifies you of potential modeling missteps or changes that you can make to improve your model design and performance. It includes recommendations for naming, user experience, and common optimizations that you can apply to improve performance. For more information, see [Best practice rules to improve your model's performance](https://powerbi.microsoft.com/blog/best-practice-rules-to-improve-your-models-performance/).
 
@@ -226,7 +226,7 @@ In this task, you will open BPA and review the results of the checks.
 
      >**Note**: You must also save the Power BI Desktop file to ensure the Tabular Editor changes are saved.
 
-## Excercise 2: Use DAX Studio
+## Exercise 2: Use DAX Studio
 
 >**Note**: According to its website, DAX Studio is "the ultimate tool for executing and analyzing DAX queries against Microsoft Tabular models." It's a feature-rich tool for DAX authoring, diagnosis, performance tuning, and analysis. Features include object browsing, integrated tracing, query execution breakdowns with detailed statistics, DAX syntax highlighting and formatting.
 
@@ -318,7 +318,7 @@ In this task, you will finish up.
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
    > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
    
