@@ -47,7 +47,7 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
 
 1. On the **Data** page, view the **Linked** tab and verify that your workspace includes a link to your Azure Data Lake Storage Gen2 storage account, which should have a name similar to **workspace<inject key="DeploymentID" enableCopy="false"/>** **(Primary - **datalake<inject key="DeploymentID" enableCopy="false"/>**)**.
 
-   ![Screenshot showing the Linked storage account with synapse ](../images/DP500-synapse01.png) 
+   ![Screenshot showing the Linked storage account with synapse ](../images/DP500-synapse01(1)1.png) 
    
 1. Expand your storage account and verify that it contains a file system container named **files** inside **workspace<inject key="DeploymentID" enableCopy="false"/>** **(Primary - **datalake<inject key="DeploymentID" enableCopy="false"/>**)**.
 
