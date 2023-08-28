@@ -18,7 +18,7 @@ After completing this lab, you will be able to:
 
  ![](.../media/lab1-archy.png)
 
-# Exercise 1: Query data in files. 
+## Exercise 1: Query data in files. 
 
 This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage account to host the data lake, and also uploaded some data files to the data lake to perform the below tasks.
 
