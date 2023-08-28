@@ -329,4 +329,9 @@ When exploring very large volumes of data, queries can take significant time and
 
 1. When you're done, on the **Manage** page, pause the **sqldb<inject key="DeploymentID" enableCopy="false"/>** dedicated SQL pool.
 
+### Review
+In this lab, you have completed:
+- Query the data warehouse tables
+- Create SQL queries
+
 ## You have successfully completed the lab
