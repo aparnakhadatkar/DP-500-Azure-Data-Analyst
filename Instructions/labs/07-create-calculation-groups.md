@@ -12,7 +12,9 @@ After completing this lab, you will be able to:
 - Format calculation items
 - Set calculation group precedence
 - Configure visuals to use calculation groups
-  
+
+## Estimated timing: 45 minutes
+
 ## Architecture Diagram
 
  ![](../images/lab7-archy.png)
@@ -20,8 +22,6 @@ After completing this lab, you will be able to:
 #### Note: In this lab session, PowerBI Desktop and Tabular Editor have already been installed for the ease of execution.
 
 ## Exercise 1: Set up Power BI Desktop
-
-## Estimated timing: 45 minutes
 
 ### Task 1: Set up Power BI Desktop
 
@@ -513,6 +513,4 @@ In this task, you'll finish up.
    
 3.  Close Tabular Editor.
 
-**You have successfully completed the lab**
-
-**End of the lab**
+## You have successfully completed the lab
