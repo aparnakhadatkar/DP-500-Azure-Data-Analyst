@@ -1,19 +1,24 @@
 
 # Lab11 - Improve query performance with dual storage mode
 
-## Overview
+## Lab scenario
 
-**The estimated time to complete the lab is 30 minutes**
+In this lab, you will improve the performance of a composite model by setting some tables to use dual storage mode
 
-In this lab, you will improve the performance of a composite model by setting some tables to use dual storage mode.
+## Lab objectives
 
-In this lab, you learn how to:
+After completing this lab, you will be able to:
 
-- Set dual storage mode.
+- Set dual storage mode
+- Use Performance analyzer to review refresh activities
 
-- Use Performance analyzer to review refresh activities.
+## Architecture Diagram
 
+ ![](media/lab11-archy.png)
+ 
 ## Excercise 1: Set up Power BI Desktop
+
+## Estimated timing: 30 minutes
 
 ### Task 1: Set up Power BI Desktop
 
@@ -152,7 +157,7 @@ In this task, you will set all dimension tables to use dual storage mode.
 
 5. In the **Storage mode** dropdown list, select **Dual**.
 
-     ![](../images1/dp-500-lab11-T9.png)
+   ![](../images1/dp-500-lab11-T9.png)
 
 6. When Storage mode dialog box is prompted, select **OK**.
 
@@ -220,10 +225,10 @@ In this task, you will finish up.
 
 2. Close Power BI Desktop.
 
-   **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. 
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
    
 **You have successfully completed the lab**
