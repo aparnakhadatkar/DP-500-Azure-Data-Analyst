@@ -21,7 +21,7 @@ After completing this lab, you will be able to:
 
 ## Architecture Diagram
 
-![](media/lab15-archy.png)
+![](../images/lab15-archy.png)
 
 ## Exercise 1: Get started
 
