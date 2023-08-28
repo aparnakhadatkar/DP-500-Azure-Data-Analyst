@@ -15,7 +15,7 @@ After completing this lab, you will be able to:
   
 ## Architecture Diagram
 
- ![](media/lab7-archy.png)
+ ![](../images/lab7-archy.png)
  
 #### Note: In this lab session, PowerBI Desktop and Tabular Editor have already been installed for the ease of execution.
 
