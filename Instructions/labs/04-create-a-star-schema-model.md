@@ -608,4 +608,10 @@ In this task, you will stop the SQL pool.
 
 1. Pause the SQL pool.
 
+### Review
+In this lab, you have completed:
+- Create a Power BI connection to an Azure Synapse Analytics SQL pool.
+- Develop model queries.
+- Organize the model diagram.
+
 ## You have successfully completed the lab
