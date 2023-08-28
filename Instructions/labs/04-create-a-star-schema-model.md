@@ -8,9 +8,9 @@ In this lab, you will use Power BI Desktop to develop a data model over the Azur
   
 After completing this lab, you will be able to:
 
-- Create a Power BI connection to an Azure Synapse Analytics SQL pool.
-- Develop model queries.
-- Organize the model diagram.
+- Create a Power BI connection to an Azure Synapse Analytics SQL pool
+- Develop model queries
+- Organize the model diagram
 
 ## Estimated timing: 30 minutes
 
@@ -610,8 +610,8 @@ In this task, you will stop the SQL pool.
 
 ### Review
 In this lab, you have completed:
-- Create a Power BI connection to an Azure Synapse Analytics SQL pool.
-- Develop model queries.
-- Organize the model diagram.
+- Create a Power BI connection to an Azure Synapse Analytics SQL pool
+- Develop model queries
+- Organize the model diagram
 
 ## You have successfully completed the lab
