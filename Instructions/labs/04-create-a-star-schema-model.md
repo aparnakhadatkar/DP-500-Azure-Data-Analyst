@@ -31,11 +31,11 @@ After completing this lab, you will be able to:
 
     ![](../images/dp500-create-a-star-schema-model-image3.png)
 	
-1. Enter the Lab username in the **Enter your email address** and click on **Continue**
+1. Enter the Lab username in the **Enter your email address** and click on **continue**
 
     ![](../images1/dp-lab4-(1).png)
 	
-1. If Prompted Select **work or school** account and click contiune on Let's get you signed in page.
+1. If Prompted Select **work or school** account and click continue on Let's get you signed in page.
 
     ![](../images1/dp-lab4-2.png)
 
