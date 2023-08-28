@@ -1,23 +1,27 @@
 # Lab13 - Use tools to optimize Power BI performance
 
-## Overview
+## Lab scenario
 
-**The estimated time to complete the lab is 30 minutes**
+In this lab, you will learn how to use two external tools to help you develop, manage, and optimize data models and DAX queries
 
-In this lab, you will learn how to use two external tools to help you develop, manage, and optimize data models and DAX queries.
+## Lab objectives
 
-In this lab, you learn how to:
+After completing this lab, you will be able to:
 
-- Use Best Practice Analyzer (BPA).
+- Use Best Practice Analyzer (BPA)
+- Use DAX Studio
 
-- Use DAX Studio.
+## Architecture Diagram
+
+ ![](media/lab13-archyy.png)
 
 ## Excercise 1: Use Best Practice Analyzer
+
+## Estimated timing: 30 minutes
 
 In this exercise,You will review the BPA rules, and then address specific issues found in the data model.
 
 >**Note**: BPA is a free third-party tool that notifies you of potential modeling missteps or changes that you can make to improve your model design and performance. It includes recommendations for naming, user experience, and common optimizations that you can apply to improve performance. For more information, see [Best practice rules to improve your model's performance](https://powerbi.microsoft.com/blog/best-practice-rules-to-improve-your-models-performance/).
-
 
 ### Task 1: Set up Power BI Desktop
 
@@ -232,9 +236,9 @@ In this task, you will open BPA and review the results of the checks.
 
 1. In the **Connect** window, select the **PBI / SSDT Model** option, and in the corresponding dropdown list, ensure the **Sales Analysis - Use tools to optimize Power BI performance** model is selected and select **Connect**.
 
-	![](../images1/dp-500-lab13-(13).png)
+   ![](../images1/dp-500-lab13-(13).png)
 
-    >**Note**: If you do not have the **Sales Analysis - Use tools to optimize Power BI performance** starter file open, you will not be able to connect. Be sure the file is open.
+   >**Note**: If you do not have the **Sales Analysis - Use tools to optimize Power BI performance** starter file open, you will not be able to connect. Be sure the file is open.
 
 1. If necessary, maximize the DAX Studio window.
 
@@ -246,7 +250,7 @@ In this task, you will optimize a query by using an improved measure formula.
 
 1. DAX studio, click on the **File** ribbon tab, select **Browse**.
 
-	![](../images1/dp-500-lab13-(14).png)
+   ![](../images1/dp-500-lab13-(14).png)
 	
 2. In the **Open** window, go to the **C:\LabFiles\DP-500-Azure-Data-Analyst\Allfiles\13\Assets** folder.
 
@@ -278,9 +282,9 @@ In this task, you will optimize a query by using an improved measure formula.
 
 10. Review the statistics available at the left side.
 
-     ![](../images/DP500-13-31.png)
+    ![](../images/DP500-13-31.png)
 
-     >**Note**: From top left to bottom right, the statistics tell you how many milliseconds it took to run the query, and the duration the storage engine (SE) CPU took. In this case (your results will differ), the formula engine (FE) took 73.5% of the time, while the SE took the remaining 26.5% of the time. There were 34 individual SE queries and 21 cache hits.
+    >**Note**: From top left to bottom right, the statistics tell you how many milliseconds it took to run the query, and the duration the storage engine (SE) CPU took. In this case (your results will differ), the formula engine (FE) took 73.5% of the time, while the SE took the remaining 26.5% of the time. There were 34 individual SE queries and 21 cache hits.
 
 11. Run the query again, and notice that all SE queries come from the SE cache.
 
@@ -292,17 +296,17 @@ In this task, you will optimize a query by using an improved measure formula.
 
 12. At line 72 in the script, replace the word **Bad** with **Better** 
 
-     ![](../images1/dp-500-lab13-(17).png)
+    ![](../images1/dp-500-lab13-(17).png)
 	
 13. Run the query, and then review the server timing statistics.
 
-     ![](../images/DP500-13-34.png)
+    ![](../images/DP500-13-34.png)
 
 14. Run it a second time to result in full cache hits.
 
-     ![](../images/DP500-13-35.png)
+    ![](../images/DP500-13-35.png)
 
-     >**Note**: In this case, you can determine that the "better" query, which uses variables and a time intelligence function, performs better-almost a 50% reduction in query execution time.
+    >**Note**: In this case, you can determine that the "better" query, which uses variables and a time intelligence function, performs better-almost a 50% reduction in query execution time.
 
 ### Task 3: Finish up
 
@@ -312,10 +316,10 @@ In this task, you will finish up.
 
 2. Close Power BI Desktop.
 
-   **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:  
-   > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   > - Click the (...) icon located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   > - Hit the Validate button for the corresponding task.If you receive a success message, you can proceed to the next task. 
    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. 
-
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   
 **You have successfully completed the lab**
