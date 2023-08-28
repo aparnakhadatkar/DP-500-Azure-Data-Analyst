@@ -16,7 +16,7 @@ After completing this lab, you will be able to:
 
  ![](media/lab12-archy.png)
 
-## Excercise 1: Create and review the Report in PowerBI Desktop
+## Exercise 1: Create and review the Report in PowerBI Desktop
 
 ## Estimated timing: 30 minutes
 
@@ -145,7 +145,7 @@ In this task, you will open the Performance analyzer and use it to inspect refre
 
    > **Note**: In this lab, you will add an aggregation of the **Sales** table data to specifically improve the performance for visual refreshes that query the sum of the **Sales Amount** column by date and sales territory.
 
-## Excercise 2: Set up an aggregation
+## Exercise 2: Set up an aggregation
 
 In this exercise, you will set up an aggregation.
 
@@ -343,7 +343,7 @@ In this task, you will setup an aggregation.
 
    > **Note**: Now, whenever a visual queries the **Sales** table for the sum of the **Sales Amount** column, grouping by any column of the **Order Date** or **Sales Territory** tables, Power BI will use the aggregation instead.
 
-## Excercise 3: Use Performance analyzer to determine whether Power BI uses an aggregation
+## Exercise 3: Use Performance analyzer to determine whether Power BI uses an aggregation
 
 ### Task 1: Test the aggregation
 
