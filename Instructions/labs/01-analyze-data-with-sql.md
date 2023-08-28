@@ -478,3 +478,4 @@ Now that you've explored various ways to query files in the data lake by using S
 
 **You have successfully completed the lab**
 
+**End of the lab**
