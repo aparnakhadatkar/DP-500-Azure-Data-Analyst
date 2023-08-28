@@ -86,7 +86,7 @@ The script provisions an Azure Synapse Analytics workspace and an Azure Storage 
 
 1. In the new **Notebook 1 (1)** tab that opens, Select the **... (2)** icon to open the **Attach to** list, select your Spark pool  **spool<inject key="Deployment ID" enableCopy="false" /> (3)**. Then use the **&#9655; Run all (4)** button to run all of the cells in the notebook (there's currently only one!).
  
-   ![](../images1/Mod2-Ex2-Task2-Step2a.png)
+   ![](../images/Mod2-Ex2-Task2-Step(2a).png)
 
     >**Note**: Since this is the first time you've run any Spark code in this session, the Spark pool must be started. This means that the first run in the session can take a few minutes. Subsequent runs will be quicker.
   
