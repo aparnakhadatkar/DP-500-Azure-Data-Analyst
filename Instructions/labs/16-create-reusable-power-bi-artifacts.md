@@ -8,17 +8,17 @@ In this lab, you will create a specialized Power BI dataset that extends a core 
 
 After completing this lab, you will be able to:
 
-- Create a live connection.
-- Create a local DirectQuery model.
-- Use lineage view to discover dependent Power BI assets.
+- Create a live connection
+- Create a local DirectQuery model
+- Use lineage view to discover dependent Power BI assets
+
+## Estimated timing: 45 minutes
 
 ## Architecture Diagram
 
 ![](../images/lab16-archy.png)
 
 ## Exercise 1: Publishing Data Model in Power BI
-
-## Estimated timing: 45 minutes
 
 In this exercise, you will Publish a data Module in Power BI.
 
@@ -475,6 +475,12 @@ In this task, you will review the specialized dataset in the Power BI service.
    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
    
-**You have successfully completed the lab**
+### Review
+In this lab, you have completed:
+- Create a live connection
+- Create a local DirectQuery model
+- Use lineage view to discover dependent Power BI assets
+  
+## You have successfully completed the lab
 
 **End of the lab**
