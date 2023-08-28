@@ -16,8 +16,6 @@ After completing this lab, you will be able to:
 
 ![](media/lab16-archy.png)
 
-## Estimated timing: 45 minutes
-
 ## Exercise 1: Publishing Data Model in Power BI
 
 ## Estimated timing: 45 minutes
