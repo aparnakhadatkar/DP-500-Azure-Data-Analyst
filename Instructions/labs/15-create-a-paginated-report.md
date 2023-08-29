@@ -601,7 +601,6 @@ In this task, you will finalize the report design by ensuring multi-page reports
 	```
 	=Globals!ExecutionTime & " | Page " &
 	```
-
 8. Ensure that a space follows the last ampersand (&).
 
 9. In the **Category** list, select **Built-in Fields**.
