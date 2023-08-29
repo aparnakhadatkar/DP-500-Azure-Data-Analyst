@@ -598,11 +598,9 @@ In this task, you will finalize the report design by ensuring multi-page reports
 
 7. In the **Expression** window, in the expression box, append a space, followed by **&amp; " | Page " &amp;**, to produce the following expression:
 
-
 	```
 	=Globals!ExecutionTime & " | Page " &
 	```
-
 8. Ensure that a space follows the last ampersand (&).
 
 9. In the **Category** list, select **Built-in Fields**.

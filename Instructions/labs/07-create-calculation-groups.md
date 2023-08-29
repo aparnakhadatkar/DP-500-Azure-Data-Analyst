@@ -239,7 +239,6 @@ groups.
 
 1.  In the **Expression Editor**, run the following formula:
 
-
      DAX
      ```
      SELECTEDMEASURE () 
@@ -266,8 +265,7 @@ groups.
         CALCULATE ( SELECTEDMEASURE (), 'Time Intelligence'[Time Calculation] = "YoY" ),
         CALCULATE ( SELECTEDMEASURE (), 'Time Intelligence'[Time Calculation] = "PY" )
     )
-    ```
-    
+    ```    
 1. In the **Expression Editor** pane toolbar, select the first button to accept
     changes.
     

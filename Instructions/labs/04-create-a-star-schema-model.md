@@ -538,10 +538,9 @@ In this task, you will create five Power Query queries that will each load as a 
 
 1. To apply the queries, on the **Home** ribbon tab, from inside the **Close** group, select the **Close &amp; Apply** icon.
 
-    ![](../images1/dp-lab4-56.png)
-
-
-    >**Note**: Each query is applied to create a model table. Because the data connection is using DirectQuery storage mode, only the model structure is created. No data is imported. The model now consists of one table for each query.
+   ![](../images1/dp-lab4-56.png)
+ 
+   >**Note**: Each query is applied to create a model table. Because the data connection is using DirectQuery storage mode, only the model structure is created. No data is imported. The model now consists of one table for each query.
 
 1. In Power BI Desktop, when the queries have been applied, at the bottom-left corner in the status bar, notice that the model storage mode is DirectQuery.
 
