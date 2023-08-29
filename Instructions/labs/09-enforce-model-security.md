@@ -12,7 +12,7 @@ After completing this lab, you will be able to:
 - Validate roles
 - Map security principals to dataset roles
 
-## Estimated timing: 35 minutes
+## Estimated timing: 120 minutes
 
 ## Architecture Diagram
 
