@@ -166,16 +166,14 @@ In this task, you will open BPA and review the results of the checks.
 
 6. In the Expression Editor, modify the DAX formula to use the more efficient (and safe) [DIVIDE](https://docs.microsoft.com/dax/divide-function-dax) function, as follows.
 
-	>**Tip**: All formulas are available to copy and paste from the **C:\LabFiles\DP-500-Azure-Data-Analyst\Allfiles\13\Assets\Snippets.txt**.
+   >**Tip**: All formulas are available to copy and paste from the **C:\LabFiles\DP-500-Azure-Data-Analyst\Allfiles\13\Assets\Snippets.txt**.
 
 	```
 	DIVIDE ( [Profit], SUM ( 'Sales'[Sales Amount] ) )C#
 	```
 
-
-    ![](../images1/dp-500-lab13-(10).png)
-    
-    
+   ![](../images1/dp-500-lab13-(10).png)
+     
 7. To save the model changes, on the toolbar, select the **Save changes to the connected database** command (or press **Ctrl+S**).
 
     ![](../images1/dp-500-lab13-(11).png)
