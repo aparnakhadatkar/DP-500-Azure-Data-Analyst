@@ -302,29 +302,29 @@ In this task, you will setup an aggregation.
 
 2. In the **Manage aggregations** window, for the **OrderDateKey** column, set the following properties:
 
-	- Summarization: **GroupBy**
+    - Summarization: **GroupBy**
 
-	- Detail table: **Sales**
+    - Detail table: **Sales**
 
-	- Detail column: **OrderDateKey**
+    - Detail column: **OrderDateKey**
 
-        ![](../images/dp500-12-36.png)
+      ![](../images/dp500-12-36.png)
 
 3. For the **Sales Amount** column, set the following properties:
 
-	- Summarization: **Sum**
+    - Summarization: **Sum**
 
-	- Detail table: **Sales**
+    - Detail table: **Sales**
 
-	- Detail column: **Sales Amount**
+    - Detail column: **Sales Amount**
 
 4. For the **SalesTerritoryKey** column, set the following properties:
 
-	- Summarization: **GroupBy**
+    - Summarization: **GroupBy**
 
-	- Detail table: **Sales**
+    - Detail table: **Sales**
 
-	- Detail column: **SalesTerritoryKey**
+    - Detail column: **SalesTerritoryKey**
 
 5. Verify that the aggregation set up looks like the following:
 
