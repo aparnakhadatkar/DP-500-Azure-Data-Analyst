@@ -57,11 +57,11 @@ This Lab provisioned with Azure Synapse Analytics workspace and an Azure Storage
    
 1. Open the **sales** folder, you can see the three sub folders titled **csv**, **json**, and **parquet** folders.
 
-   ![Screenshot showing the subfolders in the sales folder ](../images/DP500-1-7.png)
+   ![Screenshot showing the subfolders in the sales folder ](../images/DP500-1-7(1).png) 
    
 1. In the **sales** folder, open the **csv** folder, and observe that this folder contains .csv files for three years of sales data.
 
-   ![Screenshot showing the files in the CSV folder ](../images/DP500-1-8.png)
+   ![Screenshot showing the files in the CSV folder ](../images/DP500-1-(8).png)
    
 1. Right-click any of the files and select **Preview** to see the data it contains. Note that the files do not contain a header row, so you can unselect the option to display column headers.
 
