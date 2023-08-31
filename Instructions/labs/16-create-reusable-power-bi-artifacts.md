@@ -6,7 +6,7 @@ In this lab, you will create a specialized Power BI dataset that extends a core 
 
 ## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will perform:
 
 - Create a live connection
 - Create a local DirectQuery model
