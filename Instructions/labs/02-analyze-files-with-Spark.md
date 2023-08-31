@@ -16,7 +16,7 @@ In this lab, you will perform:
 - Query data using Spark SQL
 - Visualize data with Spark
 
-## Estimated timing: 120 minutes
+## Estimated timing: 60 minutes
 
 ## Architecture Diagram
 
