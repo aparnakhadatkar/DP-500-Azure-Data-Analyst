@@ -11,7 +11,7 @@ In this lab, you will perform:
 - Use Power Query Online to develop a dataflow
 - Use Power BI Desktop to consume a dataflow
 
-## Estimated timing: 120 minutes
+## Estimated timing: 60 minutes
 
 ## Architecture Diagram
 
