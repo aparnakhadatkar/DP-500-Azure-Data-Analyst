@@ -6,7 +6,7 @@ In this lab, you will add an aggregation to improve the query performance of the
 
 ## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will perform:
 
 - Create and review the report in PowerBI Desktop
 - Set up an aggregation

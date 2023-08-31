@@ -7,7 +7,7 @@ In this lab, you will improve the performance of a composite model by setting so
 
 ## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will perform:
 
 - Set dual storage mode
 - Use Performance analyzer to review refresh activities

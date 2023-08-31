@@ -8,7 +8,7 @@ In this lab, you will analyze data in a data lake with Spark involves utilizing 
 
 ## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will perform:
 
 - Query data in files
 - Use Spark to explore data

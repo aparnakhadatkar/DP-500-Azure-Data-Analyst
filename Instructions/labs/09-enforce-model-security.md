@@ -6,7 +6,7 @@ In this lab, you will update a pre-developed data model to enforce security. Spe
 
 ## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will perform:
 
 - Create static and dynamic roles
 - Validate roles
@@ -46,7 +46,7 @@ In this task, you will set up Power BI Desktop.
 1. Complete the sign up process by selecting the username and entering the password provided in the environment details tab.'
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-   ![](../images1/dp-up2.png)
+   ![](../images/dp-up(2).png)
 
 1. You will be redirected to the Power BI sign-up page in Microsoft Edge. Select **Sign-in**.
 
@@ -58,7 +58,7 @@ In this task, you will set up Power BI Desktop.
 
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-   ![](../images1/dp-up4.png)
+   ![](../images/dp-up(4).png)
 	
 1. If stay signed in window Pops-up, select **No**
 
@@ -85,8 +85,6 @@ In this task, you will create a workspace.
 	![](../images1/dp9-4.png)
 
 2. In the **Create a workspace** pane (located at the right), in the **Workspace name** box, enter a name for the workspace as **DP500-<inject key="Deployment ID" enableCopy="false" />** and select **Save**.
-
-	![](../images1/dp9-5.png)
 
 	>**Note**: The workspace name must be unique within the tenant. If you are getting an error, update the workspace name.
 

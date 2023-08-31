@@ -6,7 +6,7 @@ In this lab, you will set up incremental refresh and enable a DirectQuery partit
 
 ## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will perform:
 
 - Set up incremental refresh
 - Review table partitions

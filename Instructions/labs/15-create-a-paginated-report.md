@@ -10,7 +10,7 @@ The final report will look like the following:
 
 ## Lab objectives
   
-After completing this lab, you will be able to:
+In this lab, you will perform:
 
 - Use Power BI Report Builder
 - Design a multi-page report layout
