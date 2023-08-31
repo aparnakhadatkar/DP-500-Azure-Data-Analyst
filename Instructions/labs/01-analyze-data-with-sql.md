@@ -8,7 +8,7 @@ In this lab, you will be querying files using a serverless SQL pool allows execu
 
 ## Lab objectives
   
-After completing this lab, you will be able to:
+In this lab, you will perform:
 
 - Query different file formats using SQL
 - Create an external data source
