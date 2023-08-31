@@ -86,8 +86,6 @@ In this task, you will create a workspace.
 
 2. In the **Create a workspace** pane (located at the right), in the **Workspace name** box, enter a name for the workspace as **DP500-<inject key="Deployment ID" enableCopy="false" />** and select **Save**.
 
-	![](../images1/dp9-5.png)
-
 	>**Note**: The workspace name must be unique within the tenant. If you are getting an error, update the workspace name.
 
 ### Task 3: Review the data model
