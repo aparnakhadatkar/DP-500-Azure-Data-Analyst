@@ -13,7 +13,7 @@ In this lab, you will perform:
 - Query the data warehouse tables
 - Create SQL queries
 
-## Estimated timing: 120 minutes
+## Estimated timing: 60 minutes
 
 ## Architecture Diagram
 
