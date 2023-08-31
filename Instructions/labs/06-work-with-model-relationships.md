@@ -6,7 +6,7 @@ In this lab, you will work with model relationships specifically to address the 
 
 ## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will perform:
 
 - Interpret relationship properties in the model diagram
 - Set relationship properties
