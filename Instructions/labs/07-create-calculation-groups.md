@@ -6,7 +6,7 @@ In this lab, you will use Power BI Desktop and Tabular Editor 2 to create calcul
 
 ## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will perform:
 
 - Create calculation groups
 - Format calculation items
