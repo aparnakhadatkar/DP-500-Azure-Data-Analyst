@@ -6,7 +6,7 @@ In this lab, you will create a dataflow involves designing a system to move data
 
 ## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will perform:
 
 - Use Power Query Online to develop a dataflow
 - Use Power BI Desktop to consume a dataflow
