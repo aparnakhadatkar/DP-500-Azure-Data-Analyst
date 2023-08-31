@@ -46,7 +46,7 @@ In this task, you will set up Power BI Desktop.
 1. Complete the sign up process by selecting the username and entering the password provided in the environment details tab.'
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-   ![](../images1/dp-up2.png)
+   ![](../images/dp-up(2).png)
 
 1. You will be redirected to the Power BI sign-up page in Microsoft Edge. Select **Sign-in**.
 
@@ -58,7 +58,7 @@ In this task, you will set up Power BI Desktop.
 
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-   ![](../images1/dp-up4.png)
+   ![](../images/dp-up(4).png)
 	
 1. If stay signed in window Pops-up, select **No**
 
