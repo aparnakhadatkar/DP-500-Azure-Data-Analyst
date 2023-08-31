@@ -12,7 +12,7 @@ In this lab, you will perform:
 - Set relationship properties
 - Use DAX functions that modify relationship behaviour
 
-## Estimated timing: 120 minutes
+## Estimated timing: 60 minutes
 
 ## Architecture Diagram
 
