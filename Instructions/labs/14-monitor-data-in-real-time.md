@@ -6,7 +6,7 @@ In this lab, you will configure a report to use automatic page refresh. That way
 
 ## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will perform:
 
 - Use Performance analyzer to review refresh activities
 - Set up automatic page fresh
