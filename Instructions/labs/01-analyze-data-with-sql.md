@@ -14,7 +14,7 @@ After completing this lab, you will be able to:
 - Create an external data source
 - Visualize the query results in chart
 
-## Estimated timing: 40 minutes
+## Estimated timing: 120 minutes
   
 ## Architecture Diagram
 

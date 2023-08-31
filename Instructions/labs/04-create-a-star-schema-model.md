@@ -12,7 +12,7 @@ After completing this lab, you will be able to:
 - Develop model queries
 - Organize the model diagram
 
-## Estimated timing: 30 minutes
+## Estimated timing: 120 minutes
 
 ## Architecture Diagram
 

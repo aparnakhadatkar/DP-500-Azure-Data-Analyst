@@ -12,7 +12,7 @@ After completing this lab, you will be able to:
 - Create a local DirectQuery model
 - Use lineage view to discover dependent Power BI assets
 
-## Estimated timing: 45 minutes
+## Estimated timing: 120 minutes
 
 ## Architecture Diagram
 

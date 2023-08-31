@@ -13,7 +13,7 @@ After completing this lab, you will be able to:
 - Set calculation group precedence
 - Configure visuals to use calculation groups
 
-## Estimated timing: 45 minutes
+## Estimated timing: 120 minutes
 
 ## Architecture Diagram
 
