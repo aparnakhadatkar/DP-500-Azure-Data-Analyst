@@ -6,7 +6,7 @@ In this lab, you will update a pre-developed data model to enforce security. Spe
 
 ## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will perform:
 
 - Create static and dynamic roles
 - Validate roles
