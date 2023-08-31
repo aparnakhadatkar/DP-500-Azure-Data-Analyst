@@ -6,7 +6,7 @@ In this lab, you will learn how to use two external tools to help you develop, m
 
 ## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will perform:
 
 - Use Best Practice Analyzer (BPA)
 - Use DAX Studio
