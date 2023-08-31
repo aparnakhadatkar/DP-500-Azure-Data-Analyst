@@ -12,7 +12,7 @@ In this lab, you will perform:
 - Set up an aggregation
 - Use Performance analyzer to determine whether Power BI uses an aggregation
 
-## Estimated timing: 120 minutes
+## Estimated timing: 60 minutes
 
 ## Architecture Diagram
 
