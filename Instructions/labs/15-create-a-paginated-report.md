@@ -19,7 +19,7 @@ In this lab, you will perform:
 - Create a report parameter
 - Export a report to PDF
 
-## Estimated timing: 120 minutes
+## Estimated timing: 60 minutes
 
 ## Architecture Diagram
 
