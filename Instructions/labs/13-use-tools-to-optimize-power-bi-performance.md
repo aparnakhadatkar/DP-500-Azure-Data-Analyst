@@ -11,7 +11,7 @@ In this lab, you will perform:
 - Use Best Practice Analyzer (BPA)
 - Use DAX Studio
 
-## Estimated timing: 120 minutes
+## Estimated timing: 60 minutes
 
 ## Architecture Diagram
 
