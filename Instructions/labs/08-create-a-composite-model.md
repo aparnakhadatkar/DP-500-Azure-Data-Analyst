@@ -6,7 +6,7 @@ In this lab, you will create a composite model by adding a table to a pre-develo
 
 ## Lab objectives
   
-After completing this lab, you will be able to:
+In this lab, you will perform:
 
 - Create a composite model
 - Create model relationships
