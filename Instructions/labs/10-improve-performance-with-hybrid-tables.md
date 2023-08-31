@@ -11,7 +11,7 @@ In this lab, you will perform:
 - Set up incremental refresh
 - Review table partitions
 
-## Estimated timing: 120 minutes
+## Estimated timing: 60 minutes
 
 ## Architecture Diagram
 
