@@ -8,7 +8,7 @@ In this lab, you will explore a relational data warehouse that entails examining
 
 ## Lab objectives
 
-After completing this lab, you will be able to:
+In this lab, you will perform:
 
 - Query the data warehouse tables
 - Create SQL queries
