@@ -12,7 +12,7 @@ In this lab, you will perform:
 - Develop model queries
 - Organize the model diagram
 
-## Estimated timing: 120 minutes
+## Estimated timing: 60 minutes
 
 ## Architecture Diagram
 
