@@ -12,7 +12,7 @@ In this lab, you will perform:
 - Set dual storage mode
 - Use Performance analyzer to review refresh activities
 
-## Estimated timing: 120 minutes
+## Estimated timing: 60 minutes
 
 ## Architecture Diagram
 
