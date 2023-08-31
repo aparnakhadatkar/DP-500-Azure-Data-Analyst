@@ -43,11 +43,11 @@ In this task, you will set up Power BI.
 
 	![](../images1/dp-up1.png)
 	
-1. Complete the signup process by selecting the username and entering the password provided in the environment details tab.
+1. Complete the signup process by selecting the username and entering following password.
 
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-	![](../images1/dp-up2.png)
+	![](../images/dp-up(2).png)
 		
 1. You will be redirected to the Power BI sign-up page in Microsoft Edge. Select **Signin**.
 
@@ -56,10 +56,10 @@ In this task, you will set up Power BI.
    >**Note**: On the Welcome to Microsoft Edge page, select  **Start without your data**  , and on the help for importing Google browsing data page, select the **Continue without this data** button. Then, proceed to select  **Confirm and start browsing**  on the next page.
 
 	
-1. Enter the Password provided in the Environment Details tab and click on **Signin**
+1. Enter the following Password provided in the Environment Details tab and click on **Signin**
    * Password: <inject key="AzureAdUserPassword"></inject>
 	
-	![](../images1/dp-up4.png)
+	![](../images/dp-up(4).png)
 	
 1. If stay signed in window Pops-up, select **No**
 
@@ -85,7 +85,7 @@ In this task, you will create a workspace.
    
 1. Select **Apply**.
 
-   ![](../images1/dp-4.png)
+   ![](../images/dp-(4).png)
 
    >**Note**: Once created, the workspace opens. In the next task, you will publish a dataset to this workspace.
    
@@ -135,7 +135,7 @@ In this task, you will publish the data model.
 
 2. In the **Publish to Power BI** window, select the workspace named **DP500-<inject key="Deployment ID" enableCopy="false" />**, and then select **Select**.
 
-	![](../images1/dp-5.png)	
+	![](../images/dp-(5).png)	
 
 3. When the publishing succeeds, select **Got it**.
 
@@ -434,7 +434,7 @@ In this task, you will publish the solution, which comprises a specialized data 
 
 3. In the **Publish to Power BI** window, select your workspace named **DP500-<inject key="Deployment ID" enableCopy="false" />** , and then select **Select**.
 
-	![](../images1/dp-38.png)
+	![](../images/dp-(38).png)
 
 4. When the publishing succeeds, select **Got it**.
 
@@ -456,10 +456,9 @@ In this task, you will review the specialized dataset in the Power BI service.
 
    ![](../images/DP500-16-53.png)
 
-
 3. Hover the cursor over the **US Sales Analysis** dataset, and when the ellipsis appears, select the ellipsis, and then select **View lineage**.
 
-   ![](../images1/dp-42.png)
+   ![](../images/dp-(42).png)
 
    >**Note**: The **View lineage** option supports finding out dependencies between Power BI assets. That's important, for example, if you are going to publish changes to a core dataset. Lineage view will tell you the dependent datasets that might require testing.
 
