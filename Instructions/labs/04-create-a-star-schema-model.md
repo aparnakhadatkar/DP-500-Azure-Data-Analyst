@@ -6,7 +6,7 @@ In this lab, you will use Power BI Desktop to develop a data model over the Azur
 
 ## Lab objectives
   
-After completing this lab, you will be able to:
+In this lab, you will perform:
 
 - Create a Power BI connection to an Azure Synapse Analytics SQL pool
 - Develop model queries
