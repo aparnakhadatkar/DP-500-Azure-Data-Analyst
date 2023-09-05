@@ -12,7 +12,7 @@ In this lab, you will perform:
 - Set up automatic page fresh
 - Create and use the change detection feature
 
-## Estimated timing: 60 minutes
+## Estimated timing: 30 minutes
 
 ## Architecture Diagram
 
