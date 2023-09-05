@@ -12,7 +12,7 @@ In this lab, you will perform:
 - Create model relationships
 - Create measures
 
-## Estimated timing: 60 minutes
+## Estimated timing: 30 minutes
 
 ## Architecture Diagram
 
