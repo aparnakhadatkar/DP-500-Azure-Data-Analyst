@@ -398,9 +398,9 @@ In this task, you will create five Power Query queries that will each load as a 
 
 	- **EnglishProductName** as **Product**
 
-	- **EnglishProductSubcategoryName** as **Subcategory**
+	- **Product Details.EnglishProductCategoryName** as **Category**
 
-	- **EnglishProductCategoryName** as **Category**
+	- **Product Details.EnglishProductSubcategoryName** as **SubCategory**
 
 1. In the **Applied Steps** pane, right-click the last step, and then select **View Native Query**.
 
