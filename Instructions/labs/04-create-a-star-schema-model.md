@@ -323,9 +323,9 @@ In this task, you will create five Power Query queries that will each load as a 
 
 1. On the home tab of the ribbon, in the Combine group, select **Merge Queries.** 
 
-   >**Note**: We are merging queries to get the product details, category and sub category. This will be used in the Product dimension.
+   >**Note**: We are merging queries to get the product details, category and subcategory. This will be used in the Product dimension.
 
-1. Select the **DimProductSubcategory (1)** table from the drop down and select the **ProductCategoryKey (2)** Column in each table. Select **OK (1)**.
+1. Select the **DimProductSubcategory (1)** table from the drop-down and select the **ProductCategoryKey (2)** Column in each table. Select **OK (1)**.
 
     ![](../images1/dp-lab4-35.png)
 
@@ -359,7 +359,8 @@ In this task, you will create five Power Query queries that will each load as a 
 
 1. In the **Query Settings** pane (located at the right), to rename the query, in the **Name** box, replace the text with **Product**, and then press **Enter**.
 
-
+    ![](../images1/dp500-30-lab4.png)
+   
 1. On the home tab of the ribbon, in the Combine group, select **Merge Queries.** 
 
 1. Select the **Product Details (1)** table from the drop down and select the **ProductSubcategoryKey (2)** column in both the Product table and the Product details table1 and select **OK (3)**.
